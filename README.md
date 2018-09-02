@@ -1,6 +1,10 @@
 # Applied-Bioinformatics
 Student course material for the Applied Bioinformatics course at Scripps Research
 
+## Prerequisites
+
+The only requirement is that you have access to a latop running Windows 10 or macOS, and that you complete the [installation/configuration instructions](Configuration.md).
+
 ## Course materials
 
 ### Module 1: Bash, Juypter and git

@@ -19,9 +19,13 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [slides](https://docs.google.com/presentation/d/1uSNAH_kLjUuNCB38JPH1dZNcPRGB4xTnRw7s6sLZSQc)
 * [notebook](Module-1_bash-jupyter-git/1.3_jupyter-basics.ipynb)
 
-#### 1.4 file manipulation
+#### 1.4 File manipulation
 * [slides](https://docs.google.com/presentation/d/1v99KZHKdKDSsS3D3gerX_NpfoKEm6eO3a5euqxbZ0UA)
-* notebook
+* [notebook](Module-1_bash-jupyter-git/1.4_working-with-files.ipynb)
+
+#### 1.5 Redirection and pipes
+* [slides](https://docs.google.com/presentation/d/1X88Zjiyo7LfJVVAKhvJKNKEsJMLgkPYQtCXHzkWg3uE)
+* [notebook](Module-1_bash-jupyter-git/1.5_redirection-and-pipes.ipynb)
 
 ### Module 2: R
 

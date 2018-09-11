@@ -27,6 +27,10 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [slides](https://docs.google.com/presentation/d/1X88Zjiyo7LfJVVAKhvJKNKEsJMLgkPYQtCXHzkWg3uE)
 * [notebook](Module-1_bash-jupyter-git/1.5_redirection-and-pipes.ipynb)
 
+#### 1.6 awk
+* [slides](https://docs.google.com/presentation/d/1ejePOkEU7FVSqXUPtpM89neLXP7nR24R9Cb24QSyeqw)
+* [notebook](Module-1_bash-jupyter-git/1.6_awk.ipynb)
+
 ### Module 2: R
 
 

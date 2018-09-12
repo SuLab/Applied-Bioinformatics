@@ -1,5 +1,5 @@
 # Applied-Bioinformatics
-Student course material for the Applied Bioinformatics course at Scripps Research
+Student course material for the Applied Bioinformatics course at Scripps Research for fall 2018.
 
 ## Prerequisites
 

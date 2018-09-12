@@ -31,6 +31,10 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [slides](https://docs.google.com/presentation/d/1ejePOkEU7FVSqXUPtpM89neLXP7nR24R9Cb24QSyeqw)
 * [notebook](Module-1_bash-jupyter-git/1.6_awk.ipynb)
 
+#### 1.7 git
+
+#### 1.8 looping
+
 ### Module 2: R
 
 

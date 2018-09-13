@@ -32,8 +32,10 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [notebook](Module-1_bash-jupyter-git/1.6_awk.ipynb)
 
 #### 1.7 git
+* [how to find your homeworks again...](Module-1_bash-jupyter-git/git_reset_local_repo.ipynb)
 
 #### 1.8 looping
+* [notebook](Module-1_bash-jupyter-git/1.7_for_loop_and_string_replacement.ipynb)
 
 ### Module 2: R
 

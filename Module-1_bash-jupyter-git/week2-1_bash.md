@@ -58,10 +58,4 @@ Karthik Gangavarapu, Huitian (Yolanda) Diao
 
 
 
-# Homework for Command Line III
-
-
-
-_(Please submit all the codes you used for the questions.)_
-
 

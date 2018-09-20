@@ -266,14 +266,12 @@ Reference: Wiley Linux Command Line and Shell Scripting Bible
     ls -l test.fasta
     ```
 
-# Homework for Command Line II
+# Practice for Command Line II
 1. Write a bash script with __nano__ editor, which while runing will ask you what's your favorite color and print the answer to the screen.
 2. Download the file __models.txt__ from __/gpfs/home/hdiao/Applied-Bioinformatics-Course/week1-2__ using __scp__, and __append__ "Drosophila melanogaster" into the file.
 3. Log in to HPC, copy the folder __/gpfs/home/hdiao/Applied-Bioinformatics-Course/week1-2__ to your HPC home directory
 4. Run fastqc for the file someRNAseq.fastq. Submit a job, check the job process, archive and zip the output files.
 5. Change permission for the file __test.fasta__ so that only owner can read and write it.
-
-_(Please submit all the codes you used for the questions.)_
 
 
 

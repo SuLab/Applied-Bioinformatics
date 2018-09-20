@@ -208,7 +208,7 @@ Reference: Wiley Linux Command Line and Shell Scripting Bible
 * [__Less__ navigation cheatsheet](https://github.com/altescape/dotfiles/wiki/Bash:-Less-command-and-navigate)
 * [More cheatsheets](https://www.google.com/)
 
-# Homework for Command Line I
+# Practice for Command Line I
 1. Go to the folder __documents__ and create a folder __yourname_wk1_homework__
 2. Copy __Tumor_lib.fasta__, __test.fasta__ and folder __Art__ to the folder you created
 3. Redirect to the folder __Art__ under your new folder and find out how many files are in the folder
@@ -217,7 +217,5 @@ Reference: Wiley Linux Command Line and Shell Scripting Bible
 6. Display content of __ClaudeMonet.txt__
 7. Find out how many lines contain __"Baroque"__ in __painters.txt__
 8. For __test.fasta__, find out how many unique lines there are; and for repeating lines how many times each line repeats in __test.fasta__
-
-_(Please submit all the codes you used for the questions.)_
 
 

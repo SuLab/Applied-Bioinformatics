@@ -38,6 +38,12 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 #### 1.8 looping
 * [notebook](Module-1_bash-jupyter-git/1.7_for_loop_and_string_replacement.ipynb)
 
+
+#### Yolanda's handouts
+* Bash handout 1 [notebook](Module-1_bash-jupyter-git/week1-1_bash.md)
+* Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
+* Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
+
 ### Module 2: R
 
 

@@ -46,6 +46,8 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
 
 ### Module 2: R
+#### 2.1 R
+* [notebook](Unit1-module2-R/R.intro.1.ipynb)
 
 
 ### Module 3: RNA-seq

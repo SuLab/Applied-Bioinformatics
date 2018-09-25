@@ -47,6 +47,7 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 
 ### Module 2: R
 #### 2.1 R
+* [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-1.pptx)
 * [notebook](Unit1-module2-R/R.intro.1.ipynb)
 
 

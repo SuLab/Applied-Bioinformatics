@@ -46,10 +46,14 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
 
 ### Module 2: R
-#### 2.1 R
+#### 2.1 R objects
 * [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-1.pptx)
 * [notebook](Unit1-module2-R/R.intro.1.ipynb)
+* [Practice 2.1 sample answer](R.intro.1.practice2.1.ipynb)
 
+#### 2.1 R data operations
+* [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-2.pptx)
+* [notebook](Unit1-module2-R/R.intro.2.ipynb)
 
 ### Module 3: RNA-seq
 

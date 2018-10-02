@@ -51,11 +51,16 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [notebook](Unit1-module2-R/R.intro.1.ipynb)
 * [Practice 2.1 sample answer](Unit1-module2-R/R.intro.1.practice2.1.ipynb)
 
-#### 2.1 R data operations
+#### 2.2 R data operations
 * [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-2.pptx)
 * [notebook](Unit1-module2-R/R.intro.2.ipynb)
 * [Practice 2.2 sample answer](Unit1-module2-R/R.intro.1.practice2.2.ipynb)
 * [Practice 2.3 sample answer](Unit1-module2-R/R.intro.1.practice2.3.ipynb)
+
+#### 2.3 Flowchart & review
+* [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-3.pptx)
+* [Practice 2.4 sample answer](To be uploaded)
+
 ### Module 3: RNA-seq
 
 

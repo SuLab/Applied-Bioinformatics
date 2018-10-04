@@ -61,6 +61,10 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-3.pptx)
 * [Practice 2.4 sample answer](To be uploaded)
 
+#### 2.5 Exploratory Data Analysis and Plotting
+* [slides](Unit1-module2-R/2.5_plotting_1.ipynb)
+* [Jupyter Notebook](Unit1-module2-R/2.5_plotting_1.ipynb)
+
 ### Module 3: RNA-seq
 
 

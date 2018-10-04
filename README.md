@@ -57,9 +57,10 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [Practice 2.2 sample answer](Unit1-module2-R/R.intro.1.practice2.2.ipynb)
 * [Practice 2.3 sample answer](Unit1-module2-R/R.intro.1.practice2.3.ipynb)
 
-#### 2.3 Flowchart & review
+#### 2.3 and 2.4 Flowchart & review
 * [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-3.pptx)
 * [Practice 2.4 sample answer](To be uploaded)
+* [2.4 addendum on looping](https://docs.google.com/presentation/d/1y0Yoyvejc8mp3MZWKPAw_u4sj5-wN4CSAi2U30IkWAs/)
 
 #### 2.5 Exploratory Data Analysis and Plotting
 * [slides](Unit1-module2-R/2.5_plotting.pdf)

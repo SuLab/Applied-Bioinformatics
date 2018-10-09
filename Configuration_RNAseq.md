@@ -39,6 +39,7 @@ Now you should have a folder named `sratoolkit.2.9.2-ubuntu64` or the equivalent
 ./sratoolkit.2.9.2-ubuntu64/bin/fastq-dump --split-files SRR5454079
 ```
 This will take a while. Depending on your setup and connection speed it can take over an hour.
+You might see a warning `Rejected xxx READS because READLEN < 1` - ignore this, the reads will be extracted correctly if you run the command above. 
 
 ### 3. Download HISAT and the human reference indices
 First, we need to download a software called HISAT

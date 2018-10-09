@@ -52,6 +52,11 @@ Next, Download the HISAT2 reference indices for the human genome
 wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/grch38.tar.gz
 ```
 This will take a while, please allow the download to complete, the index file is about 4 GB.  (NB: again, if you get an error using `wget`, try replacing that with `curl -O`.)
+Once the download is complete, create a folder called `HISAT_indices` somewhere you can find it, and move the file there, then extract:
+```
+mv grch38.tar.gz HISAT_indices/
+tar -zxvf HISAT_indices/grch38.tar.gz
+```
 
 __If you have less than 8 GB RAM__ follow these instructions:
 * In terminal

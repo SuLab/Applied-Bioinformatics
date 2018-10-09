@@ -94,7 +94,12 @@ Check your HTSeq version using
 ```
 pip freeze | grep HTSeq
 ```
-You should be running version 0.11 (although 0.6 and above should work).
+You should be running version 0.11 (although 0.6 and above should work). If the command above gives no output, try the following:
+```
+sudo pip uninstall htseq
+sudo pip install htseq
+pip freeze | grep HTSeq
+```
 
 ### 6. Check the location of the newly installed software
 Using the bash commands introduced in Unit 1, reassure yourself that you can 

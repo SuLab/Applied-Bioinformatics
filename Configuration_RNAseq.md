@@ -55,6 +55,7 @@ This will take a while, please allow the download to complete, the index file is
 Once the download is complete, create a folder called `HISAT_indices` somewhere you can find it, and move the file there, then extract:
 ```
 mv grch38.tar.gz HISAT_indices/
+cd HISAT_indices
 tar -zxvf HISAT_indices/grch38.tar.gz
 ```
 

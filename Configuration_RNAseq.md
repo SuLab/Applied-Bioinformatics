@@ -44,7 +44,7 @@ You might see a warning `Rejected xxx READS because READLEN < 1` - ignore this, 
 ### 3. Download HISAT and the human reference indices
 First, we need to download a software called HISAT
 * *If you are a Mac user*, go to https://ccb.jhu.edu/software/hisat2/index.shtml and find the box labeled Releases. Download the Mac version by clicking the link.  
-* *If you are an ubuntu/WSL user*, open a terminal, the execute this command `wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.1.0-Linux_x86_64.zip`. (NB: if you get an error using `wget`, try replacing that with `curl -O`.  Same applies for all subsequent `wget` commands.) 
+* *If you are an ubuntu/WSL user*, open a terminal, the execute this command `wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.1.0-Linux_x86_64.zip`. (NB: if you get an error using `wget`, try replacing that with `curl -O`.  NB: `-O` is the letter O not the digit 0. Same applies for all subsequent `wget` commands.) 
 
 For either operating system, unzip the file (this can be done using the `unzip` command from terminal) and keep the folder in a location where you can find it.
 
@@ -76,9 +76,9 @@ gunzip Homo_sapiens.GRCh38.dna.chromosome.20.fa.gz
 Use a terminal for the following steps.
 On a _Mac_:
 ```
-brew tap homebrew/science
 brew install samtools
 ```
+NB: Previous instructions included tapping `homebrew/science` but this has been deprecated so use the command above.
 
 On _Win/Ubuntu_:
 ```

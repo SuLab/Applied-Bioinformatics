@@ -107,6 +107,10 @@ sudo pip uninstall htseq
 sudo pip install htseq
 pip freeze | grep HTSeq
 ```
+If `pip freeze` does not show the package version, try  
+```
+pip show htseq
+```
 
 ### 6. Check the location of the newly installed software
 Using the bash commands introduced in Unit 1, reassure yourself that you can 

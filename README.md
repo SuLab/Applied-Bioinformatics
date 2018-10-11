@@ -68,6 +68,10 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 
 ### Module 3: RNA-seq
 
+#### 3.1 Raw data
+* [slides](https://drive.google.com/open?id=1HMJQ6KhuneSVr7Obx8SBOTbda8BSXlmF)
+* [notebook](Unit2_RNAseq/3.1_raw-rnaseq-data.ipynb)
+
 
 ### Module 4: ChIP-seq
 

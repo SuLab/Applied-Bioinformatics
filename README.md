@@ -60,7 +60,7 @@ and [installation/RNAseq_configuration](Configuration_RNAseq.md)
 
 #### 2.3 and 2.4 Flowchart & review
 * [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-3.pptx)
-* [Practice 2.4 sample answer](To be uploaded)
+* [Practice 2.4 sample answer](Unit1-module2-R/R.intro.1.practice2.4.ipynb)
 * [2.4 addendum on looping](https://docs.google.com/presentation/d/1y0Yoyvejc8mp3MZWKPAw_u4sj5-wN4CSAi2U30IkWAs/)
 
 #### 2.5 Exploratory Data Analysis and Plotting

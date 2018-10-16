@@ -107,10 +107,17 @@ sudo pip uninstall htseq
 sudo pip install htseq
 pip freeze | grep HTSeq
 ```
+If you see error messages about ownership of the package directory, try
+```
+sudo apt-get remove python-htseq
+sudo pip install htseq
+```
+
 If `pip freeze` does not show the package version, try  
 ```
 pip show htseq
 ```
+
 
 ### 6. Check the location of the newly installed software
 Using the bash commands introduced in Unit 1, reassure yourself that you can 

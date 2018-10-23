@@ -73,6 +73,10 @@ and [installation/RNAseq_configuration](Configuration_RNAseq.md)
 * [slides](https://drive.google.com/open?id=1HMJQ6KhuneSVr7Obx8SBOTbda8BSXlmF)
 * [notebook](Unit2-RNAseq/3.1_raw-rnaseq-data.ipynb)
 
+#### 3.2 SAM files and gene counting
+* [slides](https://drive.google.com/file/d/1RAk7nVOLRqFJIl-dg9ucgYtuF9e_9Vy2/view?usp=sharing)
+
+
 
 ### Module 4: ChIP-seq
 

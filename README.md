@@ -75,6 +75,7 @@ and [installation/RNAseq_configuration](Configuration_RNAseq.md)
 
 #### 3.2 SAM files and gene counting
 * [slides](https://drive.google.com/file/d/1RAk7nVOLRqFJIl-dg9ucgYtuF9e_9Vy2/view?usp=sharing)
+* [notebook](Unit2-RNAseq/3.2_sam_and_htseq.ipynb)
 
 
 

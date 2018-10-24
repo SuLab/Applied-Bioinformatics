@@ -72,10 +72,12 @@ and [installation/RNAseq_configuration](Configuration_RNAseq.md)
 #### 3.1 Raw data
 * [slides](https://drive.google.com/open?id=1HMJQ6KhuneSVr7Obx8SBOTbda8BSXlmF)
 * [notebook](Unit2-RNAseq/3.1_raw-rnaseq-data.ipynb)
+* [3.1 sample solution](Unit2-RNAseq/3.1_exercise_solutions.ipynb)
 
 #### 3.2 SAM files and gene counting
 * [slides](https://drive.google.com/open?id=1QdEsymay8bQrqoIUZE4ofKfMEqgBs1xm)
 * [notebook](Unit2-RNAseq/3.2_sam_and_htseq.ipynb)
+* [3.2 sample solution](Unit2-RNAseq/3.2_exercise_solutions.ipynb)
 
 
 

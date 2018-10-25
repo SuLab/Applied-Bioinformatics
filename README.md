@@ -79,6 +79,9 @@ and [installation/RNAseq_configuration](Configuration_RNAseq.md)
 * [notebook](Unit2-RNAseq/3.2_sam_and_htseq.ipynb)
 * [3.2 sample solution](Unit2-RNAseq/3.2_exercise_solutions.ipynb)
 
+#### 3.3 Counts-based expression analysis
+* [slides](https://drive.google.com/open?id=1B7TiySFOo92vmwzr9YNwjdgxnhiDEMlW)
+
 
 
 ### Module 4: ChIP-seq

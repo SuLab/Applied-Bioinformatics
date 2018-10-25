@@ -69,6 +69,9 @@ and [installation/RNAseq_configuration](Configuration_RNAseq.md)
 
 ### Module 3: RNA-seq
 
+#### 3.0 RNA-seq overview 
+* [slides](https://docs.google.com/presentation/d/1UJ_aLFQuwR_ZByDbpDjaaqGBhVZwA_8VHhy0RqWufN0/edit?usp=sharing)
+
 #### 3.1 Raw data
 * [slides](https://drive.google.com/open?id=1HMJQ6KhuneSVr7Obx8SBOTbda8BSXlmF)
 * [notebook](Unit2-RNAseq/3.1_raw-rnaseq-data.ipynb)

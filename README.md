@@ -84,7 +84,10 @@ and [installation/RNAseq_configuration](Configuration_RNAseq.md)
 
 #### 3.3 Counts-based expression analysis
 * [slides](https://drive.google.com/open?id=1B7TiySFOo92vmwzr9YNwjdgxnhiDEMlW)
+* [notebook](Unit2-RNAseq/3.3_counts-based-pipeline.ipynb)
 
+#### 3.4 Preparing data for DESeq2
+* [notebook](Unit2-RNAseq/3.4_DESeq2_import_data.ipynb)
 
 
 ### Module 4: ChIP-seq

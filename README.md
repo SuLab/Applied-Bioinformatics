@@ -89,6 +89,10 @@ and [installation/RNAseq_configuration](Configuration_RNAseq.md)
 #### 3.4 Preparing data for DESeq2
 * [notebook](Unit2-RNAseq/3.4_DESeq2_import_data.ipynb)
 
+#### 3.5 Gene expression analysis with DESeq2
+* [notebook](Unit2-RNAseq/3.5_DESeq2_expression_analysis.ipynb)
+* [slides](https://drive.google.com/open?id=1lDPbBNhdCZBajNED64Pcrr4foG0Zspqq)
+
 
 ### Module 4: ChIP-seq
 

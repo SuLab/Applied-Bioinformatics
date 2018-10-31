@@ -3,8 +3,10 @@ Student course material for the Applied Bioinformatics course at Scripps Researc
 
 ## Prerequisites
 
-The only requirement is that you have access to a latop running Windows 10 or macOS, and that you complete the [installation/configuration instructions](Configuration.md)  
-and [installation/RNAseq_configuration](Configuration_RNAseq.md)
+The only requirement is that you have access to a latop running Windows 10 or macOS, and that you complete
+* [installation/configuration instructions](Configuration.md)  
+* [installation/RNAseq_configuration](Configuration_RNAseq.md)
+* [installation/ChIP-seq_configuration](ChIP-seq.config.md)
 
 ## Course materials
 

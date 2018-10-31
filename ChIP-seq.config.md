@@ -9,9 +9,9 @@
 
 ## 1. Bioconda
 ### 1.0 Install conda (If you never installed conda on your computer)
-* [Mac& Linux Miniconda Install instructions](https://conda.io/miniconda.html)
+* [Mac&Linux Miniconda Install instructions](https://conda.io/miniconda.html)
 * [Windows Miniconda Install instructions](https://www.scivision.co/anaconda-python-with-windows-subsystem-for-linux/)
-* [Bioconda Install instructions](http://ddocent.com//bioconda/)
+* [Mac&Linux&Windows Bioconda Install instructions](http://ddocent.com//bioconda/)
 
 ### 1.1 [sra-tools](https://bioconda.github.io/recipes/sra-tools/README.html)
 ```

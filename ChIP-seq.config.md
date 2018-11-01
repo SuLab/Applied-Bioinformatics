@@ -44,12 +44,7 @@ conda install sra-tools fastqc multiqc samtools trim-galore bowtie2 macs2 ucsc-b
 ```
 
 
-## 3. R packages through Bioconda
-
-### 3.0 [r-essentials](https://docs.anaconda.com/anaconda/user-guide/tasks/use-r-language/)
-```
-conda install r-essentials mro-base
-```
+## 3. R packages through Bioconday
 
 ### 3.1 [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc) and [DEseq2](https://anaconda.org/bioconda/bioconductor-deseq2)
 ```

@@ -60,3 +60,11 @@ conda install -c bioconda bioconductor-chipqc bioconductor-deseq2
 ```
 conda install bioconductor-chipseeker bioconductor-clusterprofiler
 ```
+
+## 4. R packages install through Bioconductor
+
+If the installation through conda does not work for the bioconductor packages. Please start a R kernel in jupyer notebook and then enter the following commands,
+```
+install.packages("BiocManager")
+BiocManager::install(c("ChIPQC", "ChIPseeker", "clusterProfiler", "DESeq2"))
+```

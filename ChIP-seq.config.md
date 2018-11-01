@@ -40,7 +40,7 @@ conda install sra-tools fastqc multiqc samtools trim-galore bowtie2 macs2 ucsc-b
 
 ## 3. R package installation
 
-### Through Bioconda
+### Option #1: Through Bioconda
 
 #### [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc) and [DEseq2](https://anaconda.org/bioconda/bioconductor-deseq2)
 ```
@@ -52,7 +52,7 @@ conda install -c bioconda bioconductor-chipqc bioconductor-deseq2
 conda install bioconductor-chipseeker bioconductor-clusterprofiler
 ```
 
-### Through Bioconductor
+### Option #2: Through Bioconductor
 
 If the installation through conda did not work for the bioconductor packages, please start a R kernel in jupyer notebook and then enter the following commands,
 

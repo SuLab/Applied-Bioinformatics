@@ -21,7 +21,9 @@ source activate chip # To activate the virtual environment
 ```
 
 ## 2. Package installation
-* __All the following steps are under virtual environment `chip`__. When virtual environment is activated, you can see `(chip)` at the start of your command prompt
+*
+* __All the following steps are under virtual environment `chip`__. When virtual environment is activated, you can see __`(chip)`__ at the start of your command prompt
+*
 
 ### 2.0 [Jupyter](https://anaconda.org/anaconda/jupyter) (If it is not already installed under conda)
 ```

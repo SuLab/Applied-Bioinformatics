@@ -23,12 +23,6 @@ source activate chip # To activate the virtual environment
 * For using jupyter notebook in virtual environment, everything should be the same except before you type in `jupyter notebook`, use `source activate chip`
 
 ## 2. Package installation
-
-* 2.0 [Jupyter](https://anaconda.org/anaconda/jupyter) (If it is not already installed under conda)
-```
-conda install -c anaconda jupyter
-```
-
 * 2.1 [sra-tools](https://bioconda.github.io/recipes/sra-tools/README.html)
 * 2.2 [FastQC](https://bioconda.github.io/recipes/fastqc/README.html)
 * 2.3 [MultiQC](https://bioconda.github.io/recipes/multiqc/README.html)

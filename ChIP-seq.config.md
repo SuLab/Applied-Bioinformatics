@@ -80,17 +80,23 @@ conda install ucsc-bedgraphtobigwig # Install bedgraphtobigwig
 
 ## 3. R packages through Bioconda
 
-### 2.1 [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc)
+### 3.0 [r-essentials](https://docs.anaconda.com/anaconda/user-guide/tasks/use-r-language/)
+```
+conda install r-essentials
+conda install mro-base
+```
+
+### 3.1 [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc)
 ```
 conda install -c bioconda bioconductor-chipqc
 ```
 
-### 2.2 [ChIPseeker](https://bioconda.github.io/recipes/bioconductor-chipseeker/README.html)
+### 3.2 [ChIPseeker](https://bioconda.github.io/recipes/bioconductor-chipseeker/README.html)
 ```
 conda install bioconductor-chipseeker
 ```
 
-### 2.3 [ClusterProfiler](https://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
+### 3.3 [ClusterProfiler](https://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
 ```
 conda install bioconductor-clusterprofiler
 ```

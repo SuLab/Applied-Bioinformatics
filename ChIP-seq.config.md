@@ -8,83 +8,95 @@
 ### _So easy, your grandfather could do this..._
 
 ## 1. Bioconda
-### 1.0 Install conda (If you never installed conda on your computer)
+### 1.0 Install bioconda (If you never installed conda on your computer)
 * [Mac&Linux Miniconda Install instructions](https://conda.io/miniconda.html)
-* [Windows Miniconda Install instructions](https://www.scivision.co/anaconda-python-with-windows-subsystem-for-linux/)
-* [Mac&Linux&Windows Bioconda Install instructions](http://ddocent.com//bioconda/)
+* [Windows Miniconda Install instructions](https://www.scivision.co/anaconda-python-with-windows-subsystem-for-linux/) (You can ignore the "Setup Spyder IDE" part)
+* [Mac&Linux&Windows Bioconda Install instructions](http://ddocent.com//bioconda/) (You can ignore the "dDocent" part)
 
-### 1.1 [sra-tools](https://bioconda.github.io/recipes/sra-tools/README.html)
+### 1.1 Setting up python2.7 virtual environment
+* [Managing conda environment](https://conda.io/docs/user-guide/tasks/manage-environments.html)
+```
+conda create -n chip python=2.7
+source activate chip # To activate the virtual environment
+```
+
+## 2 Package installation
+* __All the following steps are under virtual environment `chip`__. When virtual environment is activated, you can see `(chip)` at the start of your command prompt
+
+### 2.0 [Jupyter](https://anaconda.org/anaconda/jupyter) (If it is not already installed under conda)
+```
+conda install -c anaconda jupyter
+```
+
+### 2.1 [sra-tools](https://bioconda.github.io/recipes/sra-tools/README.html)
 ```
 conda install sra-tools # Install sra-tools (include fastq-dump)
 #conda update sra-tools # Update sra-tools
 ```
 
-### 1.2 [FastQC](https://bioconda.github.io/recipes/fastqc/README.html)
+### 2.2 [FastQC](https://bioconda.github.io/recipes/fastqc/README.html)
 ```
 conda install fastqc # Install fastqc
 #conda update fastqc # Update fastqc
 ```
 
-### 1.3 [MultiQC](https://bioconda.github.io/recipes/multiqc/README.html)
+### 2.3 [MultiQC](https://bioconda.github.io/recipes/multiqc/README.html)
 ```
 conda install multiqc # Install multiqc
 #conda update multiqc # Update multiqc
 ```
 
-### 1.4 [Samtools](https://bioconda.github.io/recipes/samtools/README.html)
+### 2.4 [Samtools](https://bioconda.github.io/recipes/samtools/README.html)
 ```
 conda install samtools # Install samtools
 #conda update samtools # Update samtools
 ```
 
-### 1.5 [Trim-galore](https://bioconda.github.io/recipes/trim-galore/README.html)
+### 2.5 [Trim-galore](https://bioconda.github.io/recipes/trim-galore/README.html)
 ```
 conda install trim-galore # Install trim-galore
 #conda update trim-galore # Update trim-galore
 # Usage: trim_galore (can not call it by trim-galore :D)
 ```
 
-### 1.6 [Bowtie2](https://bioconda.github.io/recipes/bowtie2/README.html)
+### 2.6 [Bowtie2](https://bioconda.github.io/recipes/bowtie2/README.html)
 ```
 conda install bowtie2 # Install bowtie2
 #conda update bowtie2 # Update bowtie2
 ```
 
-### 1.7 [MACS2](https://bioconda.github.io/recipes/macs2/README.html)
+### 2.7 [MACS2](https://bioconda.github.io/recipes/macs2/README.html)
 ```
 conda install macs2 # Update macs2
 #conda update macs2 # Update macs2
 ```
 
-#### 1.8 [USCS-bedgraphtobigwig](https://bioconda.github.io/recipes/ucsc-bedgraphtobigwig/README.html)
+#### 2.8 [USCS-bedgraphtobigwig](https://bioconda.github.io/recipes/ucsc-bedgraphtobigwig/README.html)
 ```
 conda install ucsc-bedgraphtobigwig # Install bedgraphtobigwig
 #conda update ucsc-bedgraphtobigwig # Update bedgraphtobigwig
 ```
 
-![Bioconductor](https://www.bioconductor.org/images/logo_bioconductor.gif)
-### _So easy, your grandfather could do this too!!!_
+## 3. R packages through Bioconda
 
-## 2. R packages through Bioconductor
-### 2.1 [ChIPQC](https://bioconductor.org/packages/release/bioc/html/ChIPQC.html)
+### 2.1 [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc)
 ```
-## try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("ChIPQC")
+conda install -c bioconda bioconductor-chipqc
 ```
 
-### 2.2 [ChIPseeker](https://bioconductor.org/packages/release/bioc/html/ChIPseeker.html)
+### 2.2 [ChIPseeker](https://bioconda.github.io/recipes/bioconductor-chipseeker/README.html)
 ```
-## try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("ChIPseeker")
+conda install bioconductor-chipseeker
 ```
 
-### 2.3 [ClusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
+### 2.3 [ClusterProfiler](https://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
 ```
-## try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("clusterProfiler")
+conda install bioconductor-clusterprofiler
+```
+
+### 2.4 [DEseq2](https://anaconda.org/bioconda/bioconductor-deseq2)
+```
+conda install -c bioconda bioconductor-deseq2
 ```
 
 

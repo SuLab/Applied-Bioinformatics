@@ -22,7 +22,7 @@ source activate chip # To activate the virtual environment
 * __All the following steps are under virtual environment `chip`__. When virtual environment is activated, you can see __`(chip)`__ at the start of your command prompt
 * For using jupyter notebook in virtual environment, everything should be the same except before you type in `jupyter notebook`, use `source activate chip`
 
-## 2. Package installation
+## 2. Tool installation
 * 2.1 [sra-tools](https://bioconda.github.io/recipes/sra-tools/README.html)
 * 2.2 [FastQC](https://bioconda.github.io/recipes/fastqc/README.html)
 * 2.3 [MultiQC](https://bioconda.github.io/recipes/multiqc/README.html)
@@ -38,19 +38,21 @@ conda install sra-tools fastqc multiqc samtools trim-galore bowtie2 macs2 ucsc-b
 ```
 
 
-## 3. R packages through Bioconday
+## 3. R package installation
 
-### 3.1 [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc) and [DEseq2](https://anaconda.org/bioconda/bioconductor-deseq2)
+### Through Bioconda
+
+#### [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc) and [DEseq2](https://anaconda.org/bioconda/bioconductor-deseq2)
 ```
 conda install -c bioconda bioconductor-chipqc bioconductor-deseq2
 ```
 
-### 3.2 [ChIPseeker](https://bioconda.github.io/recipes/bioconductor-chipseeker/README.html) and [ClusterProfiler](https://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
+#### [ChIPseeker](https://bioconda.github.io/recipes/bioconductor-chipseeker/README.html) and [ClusterProfiler](https://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
 ```
 conda install bioconductor-chipseeker bioconductor-clusterprofiler
 ```
 
-## 4. R packages install through Bioconductor
+### Through Bioconductor
 
 If the installation through conda did not work for the bioconductor packages, please start a R kernel in jupyer notebook and then enter the following commands,
 

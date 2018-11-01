@@ -24,66 +24,31 @@ source activate chip # To activate the virtual environment
 
 ## 2. Package installation
 
-### 2.0 [Jupyter](https://anaconda.org/anaconda/jupyter) (If it is not already installed under conda)
+* 2.0 [Jupyter](https://anaconda.org/anaconda/jupyter) (If it is not already installed under conda)
 ```
 conda install -c anaconda jupyter
 ```
 
-### 2.1 [sra-tools](https://bioconda.github.io/recipes/sra-tools/README.html)
-```
-conda install sra-tools # Install sra-tools (include fastq-dump)
-#conda update sra-tools # Update sra-tools
-```
+* 2.1 [sra-tools](https://bioconda.github.io/recipes/sra-tools/README.html)
+* 2.2 [FastQC](https://bioconda.github.io/recipes/fastqc/README.html)
+* 2.3 [MultiQC](https://bioconda.github.io/recipes/multiqc/README.html)
+* 2.4 [Samtools](https://bioconda.github.io/recipes/samtools/README.html)
+* 2.5 [Trim-galore](https://bioconda.github.io/recipes/trim-galore/README.html)
+* 2.6 [Bowtie2](https://bioconda.github.io/recipes/bowtie2/README.html)
+* 2.7 [MACS2](https://bioconda.github.io/recipes/macs2/README.html)
+* 2.8 [USCS-bedgraphtobigwig](https://bioconda.github.io/recipes/ucsc-bedgraphtobigwig/README.html)
 
-### 2.2 [FastQC](https://bioconda.github.io/recipes/fastqc/README.html)
 ```
-conda install fastqc # Install fastqc
-#conda update fastqc # Update fastqc
-```
-
-### 2.3 [MultiQC](https://bioconda.github.io/recipes/multiqc/README.html)
-```
-conda install multiqc # Install multiqc
-#conda update multiqc # Update multiqc
-```
-
-### 2.4 [Samtools](https://bioconda.github.io/recipes/samtools/README.html)
-```
-conda install samtools # Install samtools
-#conda update samtools # Update samtools
-```
-
-### 2.5 [Trim-galore](https://bioconda.github.io/recipes/trim-galore/README.html)
-```
-conda install trim-galore # Install trim-galore
-#conda update trim-galore # Update trim-galore
+conda install sra-tools fastqc multiqc samtools trim-galore bowtie2 macs2 ucsc-bedgraphtobigwig
 # Usage: trim_galore (can not call it by trim-galore :D)
 ```
 
-### 2.6 [Bowtie2](https://bioconda.github.io/recipes/bowtie2/README.html)
-```
-conda install bowtie2 # Install bowtie2
-#conda update bowtie2 # Update bowtie2
-```
-
-### 2.7 [MACS2](https://bioconda.github.io/recipes/macs2/README.html)
-```
-conda install macs2 # Update macs2
-#conda update macs2 # Update macs2
-```
-
-#### 2.8 [USCS-bedgraphtobigwig](https://bioconda.github.io/recipes/ucsc-bedgraphtobigwig/README.html)
-```
-conda install ucsc-bedgraphtobigwig # Install bedgraphtobigwig
-#conda update ucsc-bedgraphtobigwig # Update bedgraphtobigwig
-```
 
 ## 3. R packages through Bioconda
 
 ### 3.0 [r-essentials](https://docs.anaconda.com/anaconda/user-guide/tasks/use-r-language/)
 ```
-conda install r-essentials
-conda install mro-base
+conda install r-essentials mro-base
 ```
 
 ### 3.1 [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc)

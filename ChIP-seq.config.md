@@ -51,23 +51,12 @@ conda install sra-tools fastqc multiqc samtools trim-galore bowtie2 macs2 ucsc-b
 conda install r-essentials mro-base
 ```
 
-### 3.1 [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc)
+### 3.1 [ChIPQC](https://anaconda.org/bioconda/bioconductor-chipqc) and [DEseq2](https://anaconda.org/bioconda/bioconductor-deseq2)
 ```
-conda install -c bioconda bioconductor-chipqc
-```
-
-### 3.2 [ChIPseeker](https://bioconda.github.io/recipes/bioconductor-chipseeker/README.html)
-```
-conda install bioconductor-chipseeker
+conda install -c bioconda bioconductor-chipqc bioconductor-deseq2
 ```
 
-### 3.3 [ClusterProfiler](https://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
+### 3.2 [ChIPseeker](https://bioconda.github.io/recipes/bioconductor-chipseeker/README.html) and [ClusterProfiler](https://bioconda.github.io/recipes/bioconductor-clusterprofiler/README.html)
 ```
-conda install bioconductor-clusterprofiler
+conda install bioconductor-chipseeker bioconductor-clusterprofiler
 ```
-
-### 2.4 [DEseq2](https://anaconda.org/bioconda/bioconductor-deseq2)
-```
-conda install -c bioconda bioconductor-deseq2
-```
-

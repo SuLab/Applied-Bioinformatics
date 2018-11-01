@@ -8,19 +8,19 @@
 ### _So easy, your grandfather could do this..._
 
 ## 1. Bioconda
-### 1.0 Install bioconda (If you never installed conda on your computer)
+#### 1.0 Install bioconda (If you never installed conda on your computer)
 * [Mac&Linux Miniconda Install instructions](https://conda.io/miniconda.html)
 * [Windows Miniconda Install instructions](https://www.scivision.co/anaconda-python-with-windows-subsystem-for-linux/) (You can ignore the "Setup Spyder IDE" part)
 * [Mac&Linux&Windows Bioconda Install instructions](http://ddocent.com//bioconda/) (You can ignore the "dDocent" part)
 
-### 1.1 Setting up python2.7 virtual environment
+#### 1.1 Setting up python2.7 virtual environment
 * [Managing conda environment](https://conda.io/docs/user-guide/tasks/manage-environments.html)
 ```
 conda create -n chip python=2.7
 source activate chip # To activate the virtual environment
 ```
 
-## 2 Package installation
+## 2. Package installation
 * __All the following steps are under virtual environment `chip`__. When virtual environment is activated, you can see `(chip)` at the start of your command prompt
 
 ### 2.0 [Jupyter](https://anaconda.org/anaconda/jupyter) (If it is not already installed under conda)

@@ -95,6 +95,10 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [notebook](Unit2-RNAseq/3.5_DESeq2_expression_analysis.ipynb)
 * [slides](https://drive.google.com/open?id=1lDPbBNhdCZBajNED64Pcrr4foG0Zspqq)
 
+#### 3.6 Differential expression analysis
+* [notebook](Unit2-RNAseq/3.6_DESeq2_differential_expression_analysis.ipynb)
+* [slides](https://drive.google.com/open?id=1deq5uIjmpa3G1zfb9PZqE1sT38uBsxGe)
+
 
 ### Module 4: ChIP-seq
 

@@ -101,6 +101,8 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 
 
 ### Module 4: ChIP-seq
-
+#### 4.1 ChIP-seq basics
+* [slides](Unit2-module2-ChIPseq/ChIP-seq.1.pptx)
+* [Q&A1](Unit2-module2-ChIPseq/ChIP-seq.Q&A.1.ipynb)
 
 ### Module 5: Single cell RNA-seq

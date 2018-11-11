@@ -102,7 +102,8 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 
 ### Module 4: ChIP-seq
 #### 4.1 ChIP-seq basics
-* [slides](https://drive.google.com/open?id=1wSsKLtOCyYNWON3KQ5AcvTbsmWNFAb7N)
+* [slides - Matthew Pipkin](https://drive.google.com/open?id=1rWe790R3F9HQ3dyz2E6NVb44EcSg2Z7z)
+* [slides - Yolanda](https://drive.google.com/open?id=1wSsKLtOCyYNWON3KQ5AcvTbsmWNFAb7N)
 * [Q&A1](Unit2-module2-ChIPseq/ChIP-seq.Q&A.1.ipynb)
 * [Practice 4.1 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.1.ipynb)
 

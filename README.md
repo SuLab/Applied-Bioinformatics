@@ -112,7 +112,7 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [notebook](Unit2-module2-ChIPseq/ChIP-seq.2.ipynb)
 * [Data](https://drive.google.com/open?id=1n5-BAfI6SkjJZaniUZJDQCauZFlr_-8N)
 * [Practice 4.2 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.2.ipynb)
-* [Practice 4.3 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.2.ipynb)
-* [Practice 4.4 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.2.ipynb)
+* [Practice 4.3 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.3.ipynb)
+* [Practice 4.4 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.4.ipynb)
 
 ### Module 5: Single cell RNA-seq

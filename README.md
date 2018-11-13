@@ -122,7 +122,7 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * Windows Data download
 ```
 # Ubuntu terminal
-scp your_email_name@login00.scripps.edu:/gpfs/group/pipkin/HHXue_ChIP/srt_dupr_bam/chr/bam/target_file your_directory
+scp your_email_name@login00.scripps.edu:/gpfs/group/pipkin/HHXue_ChIP/srt_dupr_bam/chr/bam/target_file    Your_directory
 ```
 
 ### Module 5: Single cell RNA-seq

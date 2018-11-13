@@ -121,8 +121,12 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [Data](https://drive.google.com/drive/folders/1EJJ58DaOKSG_9d_--8WSZ1qkeD3KHZAR?usp=sharing)
 * Windows Data download
 ```
-# Ubuntu terminal
+# Ubuntu terminal Option #1
 scp your_email_name@login00.scripps.edu:/gpfs/home/hdiao/bam/target_file    Your_directory
+
+# Ubuntu terminal Option #2
+# click the links and download to your `Downloads` directory, then copy using this command template below:
+cp /mnt/c/Users/<username>/Downloads/SRR3001750_srt_dupr.chr10.bam .
 ```
 
 ### Module 5: Single cell RNA-seq

@@ -128,5 +128,3 @@ scp your_email_name@login00.scripps.edu:/gpfs/home/hdiao/bam/target_file    Your
 # click the links and download to your `Downloads` directory, then copy using this command template below:
 cp /mnt/c/Users/<username>/Downloads/SRR3001750_srt_dupr.chr10.bam .
 ```
-
-### Module 5: Single cell RNA-seq

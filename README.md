@@ -115,4 +115,14 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [Practice 4.3 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.3.ipynb)
 * [Practice 4.4 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.4.ipynb)
 
+#### 4.2 Customized and MACS2
+* [slides](https://drive.google.com/file/d/1bxYHHrTRhiGug2Zq_jbabeFWqVG7EPTw/view?usp=sharing)
+* [notebook](Unit2-module2-ChIPseq/ChIP-seq.3.ipynb)
+* [Data](https://drive.google.com/drive/folders/1EJJ58DaOKSG_9d_--8WSZ1qkeD3KHZAR?usp=sharing)
+* Windows Data download
+```
+# Ubuntu terminal
+scp your_email_name@login00.scripps.edu:/gpfs/group/pipkin/HHXue_ChIP/srt_dupr_bam/chr/bam/target_file your_directory
+```
+
 ### Module 5: Single cell RNA-seq

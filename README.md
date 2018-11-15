@@ -110,10 +110,10 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 #### 4.2 ChIP-seq filter and alignment
 * [slides](https://drive.google.com/open?id=1raYmBLa4ZWdSU17MuwtyeqwBYtmyLZjY)
 * [notebook](Unit2-module2-ChIPseq/ChIP-seq.2.ipynb)
-* [Data](https://drive.google.com/open?id=1n5-BAfI6SkjJZaniUZJDQCauZFlr_-8N)
 * [Practice 4.2 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.2.ipynb)
 * [Practice 4.3 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.3.ipynb)
 * [Practice 4.4 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.4.ipynb)
+* [Data](https://drive.google.com/open?id=1n5-BAfI6SkjJZaniUZJDQCauZFlr_-8N)
 
 #### 4.3 Customized filter and MACS2 peak calling
 * [slides](https://drive.google.com/file/d/1bxYHHrTRhiGug2Zq_jbabeFWqVG7EPTw/view?usp=sharing)
@@ -123,10 +123,6 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [Practice 4.6 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.6.ipynb)
 * [Data](https://drive.google.com/drive/folders/1EJJ58DaOKSG_9d_--8WSZ1qkeD3KHZAR?usp=sharing)
 * Windows Data download
-
-#### 4.4 ChIP-seq data visualization & general tips for fixing bugs
-* [slides](https://drive.google.com/open?id=1v27eTROD3Xq5yhXefs-non2LR_L8h_DY)
-* [Q&A3](Unit2-module2-ChIPseq/ChIP-seq.Q&A.3.ipynb)
 ```
 # Ubuntu terminal Option #1
 scp your_email_name@login00.scripps.edu:/gpfs/home/hdiao/bam/target_file    Your_directory
@@ -135,3 +131,8 @@ scp your_email_name@login00.scripps.edu:/gpfs/home/hdiao/bam/target_file    Your
 # click the links and download to your `Downloads` directory, then copy using this command template below:
 cp /mnt/c/Users/<username>/Downloads/SRR3001750_srt_dupr.chr10.bam .
 ```
+
+#### 4.4 ChIP-seq data visualization & general tips for fixing bugs
+* [slides](https://drive.google.com/open?id=1v27eTROD3Xq5yhXefs-non2LR_L8h_DY)
+* [Q&A3](Unit2-module2-ChIPseq/ChIP-seq.Q&A.3.ipynb)
+

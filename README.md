@@ -115,11 +115,18 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [Practice 4.3 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.3.ipynb)
 * [Practice 4.4 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.4.ipynb)
 
-#### 4.2 Customized and MACS2
+#### 4.3 Customized filter and MACS2 peak calling
 * [slides](https://drive.google.com/file/d/1bxYHHrTRhiGug2Zq_jbabeFWqVG7EPTw/view?usp=sharing)
 * [notebook](Unit2-module2-ChIPseq/ChIP-seq.3.ipynb)
+* [Q&A2](Unit2-module2-ChIPseq/ChIP-seq.Q&A.2.ipynb)
+* [Practice 4.5 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.5.ipynb)
+* [Practice 4.6 sample solutions](Unit2-module2-ChIPseq/ChIP-seq.practice4.6.ipynb)
 * [Data](https://drive.google.com/drive/folders/1EJJ58DaOKSG_9d_--8WSZ1qkeD3KHZAR?usp=sharing)
 * Windows Data download
+
+#### 4.4 ChIP-seq data visualization & general tips for fixing bugs
+* [slides](https://drive.google.com/open?id=1v27eTROD3Xq5yhXefs-non2LR_L8h_DY)
+* [Q&A3](Unit2-module2-ChIPseq/ChIP-seq.Q&A.3.ipynb)
 ```
 # Ubuntu terminal Option #1
 scp your_email_name@login00.scripps.edu:/gpfs/home/hdiao/bam/target_file    Your_directory

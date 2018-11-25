@@ -31,6 +31,7 @@ source activate chip # To activate the virtual environment
 * 2.6 [Bowtie2](https://bioconda.github.io/recipes/bowtie2/README.html)
 * 2.7 [MACS2](https://bioconda.github.io/recipes/macs2/README.html)
 * 2.8 [USCS-bedgraphtobigwig](https://bioconda.github.io/recipes/ucsc-bedgraphtobigwig/README.html)
+* 2.9 [Rpy2](https://anaconda.org/r/rpy2)
 
 ```
 conda install sra-tools fastqc multiqc samtools trim-galore bowtie2 macs2 ucsc-bedgraphtobigwig

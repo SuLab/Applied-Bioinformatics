@@ -138,7 +138,7 @@ cp /mnt/c/Users/<username>/Downloads/SRR3001750_srt_dupr.chr10.bam .
 
 #### 4.5 ChIPQC and Transcription Factor Consensus Motif Enrichment by Homer
 * [slides](https://drive.google.com/open?id=1UWi2f8x0CVt7xzxhSdw5us27O_9bSEiC)
-* [notebook 1](Unit2-module2-ChIPseq/ChIP-seq.5.1.ipynb)
-* [notebook 2](Unit2-module2-ChIPseq/ChIP-seq.5.2_R.ipynb)
-* [notebook 3](Unit2-module2-ChIPseq/ChIP-seq.5.3_Homer.ipynb)
+* [notebook 1 (ChIPQC preparation)](Unit2-module2-ChIPseq/ChIP-seq.5.1.ipynb)
+* [notebook 2 (ChIPQC)](Unit2-module2-ChIPseq/ChIP-seq.5.2_R.ipynb)
+* [notebook 3 (Homer)](Unit2-module2-ChIPseq/ChIP-seq.5.3_Homer.ipynb)
 

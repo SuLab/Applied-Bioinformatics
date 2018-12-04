@@ -99,6 +99,8 @@ The only requirement is that you have access to a latop running Windows 10 or ma
 * [notebook](Unit2-RNAseq/3.6_DESeq2_differential_expression_analysis.ipynb)
 * [slides](https://drive.google.com/open?id=1deq5uIjmpa3G1zfb9PZqE1sT38uBsxGe)
 
+#### 3.7 Enrichment analysis
+* [slides](https://drive.google.com/file/d/1SE0LZBVgkB52l9SU0XHpmcvO6RyJMMzW/view?usp=sharing)
 
 ### Module 4: ChIP-seq
 #### 4.1 ChIP-seq basics

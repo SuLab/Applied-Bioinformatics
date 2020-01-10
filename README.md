@@ -1,22 +1,21 @@
 # Applied Bioinformatics
-Welcome to the Applied Bioinformatics course, offered at [The Scripps Research Institute](https://www.scripps.edu//). </br>
-Course materials from previous years are available [here](https://github.com/SuLab/Applied-Bioinformatics/tree/master). </br> </br>
+Welcome to the Applied Bioinformatics course offered at [The Scripps Research Institute](https://www.scripps.edu//). </br>
+Course materials from previous years are available [here](https://github.com/SuLab/Applied-Bioinformatics/tree/master). </br> 
 
-By the end of this course, you will:
-(1)
-(2)
-(3)..
+By the end of this course, you will: </br>
+1. </br>
+2. </br>
+3. .. </br>
 
 Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) and Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)) </br>
-Teaching Assistants (TAs): To be determined </br> </br>
+Teaching Assistants (TAs): To be determined </br> 
 
 ## Prerequisites
 
-* An enthusiasm for learning, at whatever level of exprience you may or may not be
-* Access to a latop running Windows 10 or macOS
+* An enthusiasm for learning, at whatever level of exprience you may or may not be.
 * Installation of the following, prior to arrival:
- * [installation/configuration instructions](Configuration.md)  
- * [installation/RNAseq_configuration](Configuration_RNAseq.md)
+  * [installation of Jupyter Notebook with programming languages Python3 (automatic) and R](Configuration.md) 
+  * [installation of packages to be used for RNA-Seq Analyses](Configuration_RNAseq.md)
 
 ## Schedule at a Glance
 

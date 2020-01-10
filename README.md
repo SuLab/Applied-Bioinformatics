@@ -14,8 +14,8 @@ Teaching Assistants (TAs): To be determined </br>
 
 * An enthusiasm for learning, at whatever level of exprience you may or may not be.
 * Installation of the following, prior to arrival:
-  * [installation of Jupyter Notebook with programming languages Python3 (automatic) and R](Configuration.md) 
-  * [installation of packages to be used for RNA-Seq Analyses](Configuration_RNAseq.md)
+  * Jupyter Notebook with programming languages Python3 (automatic) and R [here](Configuration.md) 
+  * Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
 
 ## Schedule at a Glance
 

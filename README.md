@@ -1,32 +1,41 @@
-# Applied-Bioinformatics
-Student course materials for the Applied Bioinformatics course at Scripps Research for the Fall 2020 quarter </br>
+# Applied Bioinformatics
+Welcome to the Applied Bioinformatics course, offered at [The Scripps Research Institute](https://www.scripps.edu//). </br>
+Course materials from previous years are available [here](https://github.com/SuLab/Applied-Bioinformatics/tree/master). </br> </br>
+
+By the end of this course, you will:
+(1)
+(2)
+(3)..
+
 Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) and Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)) </br>
 Teaching Assistants (TAs): To be determined </br> </br>
-Course materials from previous years are available [here](https://github.com/SuLab/Applied-Bioinformatics/tree/master)
 
-## Overview
-Syllabus
-* Unit 1 (4 wks, dates TBD): Fundamentals of Scientific Computing, or STBIO 400
+## Prerequisites
+
+* An enthusiasm for learning, at whatever level of exprience you may or may not be
+* Access to a latop running Windows 10 or macOS
+* Installation of the following, prior to arrival:
+ * [installation/configuration instructions](Configuration.md)  
+ * [installation/RNAseq_configuration](Configuration_RNAseq.md)
+
+## Schedule at a Glance
+
+* Unit A (4 wks, dates TBD): Fundamentals of Scientific Computing, or STBIO 400
   * Week 1: Course Introduction and Bash Basics
   * Week 2: Jupyter Notebook and File Manipulation
   * Week 3: File Manipulation cnt'd, Redirection and Pipes
   * Week 4: Git and Loops
-* Unit 2 (5 wks, dates TBD): Understanding and Exploration RNA-Seq, and scRNA-Seq (single cell), or STBIO 440a
-  * Week 5: Introduction to R and Plotting Figures
+* Unit B (5 wks, dates TBD): Understanding and Exploration RNA-Seq and scRNA-Seq (single cell), or STBIO 440i
+  * Week 5: Introduction to R and Plotting Publication-Ready Figures
   * Week 6: Introduction to Capstone Project
   * Week 7: Introduction to RNA-Seq and Raw Data Ouput
-  * Week 8: Data Pre-processing
-  * Week 9: Data Post-processing and DESeq2
-* Unit 3 (3 wks, dates TBD): Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or STBIO 440b
+  * Week 8: RNA-Seq Data Pre-processing
+  * Week 9: RNA-Seq Data Post-processing and DESeq2
+* Unit C (3 wks, dates TBD): Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or STBIO 440ii
   * Week 10: Capstone Project Workshop
   * Week 11: Capstone Project Presentations
   * Week 12: An Overview of Additional Bioinformatics Workflows
 
-## Prerequisites
-
-Access to a latop running Windows 10 or macOS, and that you complete:
-* [installation/configuration instructions](Configuration.md)  
-* [installation/RNAseq_configuration](Configuration_RNAseq.md)
 
 ## Course materials
 

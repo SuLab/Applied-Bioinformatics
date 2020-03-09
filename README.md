@@ -52,22 +52,10 @@ Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Y
   * Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
   * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
 
-### Unit B: Exploration of RNA-Seq and scRNA-Seq utilizng R
-#### 2.1 R objects
-* [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-1.pptx)
-* [notebook](Unit1-module2-R/R.intro.1.ipynb)
-* [Practice 2.1 sample answer](Unit1-module2-R/R.intro.1.practice2.1.ipynb)
-
-#### 2.2 R data operations
-* [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-2.pptx)
-* [notebook](Unit1-module2-R/R.intro.2.ipynb)
-* [Practice 2.2 sample answer](Unit1-module2-R/R.intro.1.practice2.2.ipynb)
-* [Practice 2.3 sample answer](Unit1-module2-R/R.intro.1.practice2.3.ipynb)
-
-#### 2.3 and 2.4 Flowchart & review
-* [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-3.pptx)
-* [Practice 2.4 sample answer](Unit1-module2-R/R.intro.1.practice2.4.ipynb)
-* [2.4 addendum on looping](https://docs.google.com/presentation/d/1y0Yoyvejc8mp3MZWKPAw_u4sj5-wN4CSAi2U30IkWAs/)
+### Unit B: Exploration of RNA-Seq and scRNA-Seq utilizing R
+* B.5a: Introduction to R [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-1.pptx) and [notebook](Unit1-module2-R/R.intro.1.ipynb) with [sample answer](Unit1-module2-R/R.intro.1.practice2.1.ipynb)
+* B.5b: R operations [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-2.pptx) and [notebook](Unit1-module2-R/R.intro.2.ipynb) with sample answers [2](Unit1-module2-R/R.intro.1.practice2.2.ipynb) and [3](Unit1-module2-R/R.intro.1.practice2.3.ipynb) 
+* B.6a: R review [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-3.pptx) and sample answer [4](Unit1-module2-R/R.intro.1.practice2.4.ipynb) with [extension info on loops](https://docs.google.com/presentation/d/1y0Yoyvejc8mp3MZWKPAw_u4sj5-wN4CSAi2U30IkWAs/)
 
 #### 2.5 Exploratory Data Analysis and Plotting
 * [slides](Unit1-module2-R/2.5_plotting.pdf)

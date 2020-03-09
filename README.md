@@ -39,28 +39,13 @@ Teaching Assistants (TAs): Huitian (Yolanda) Diao, Karthik Gangavarapu, Shang-Fu
 ## Course materials
 
 ### Unit A: Bash, Juypter and Git
-* A.1a: Course introduction [slides](https://docs.google.com/presentation/d/1B8mOhQOvRb7aK2-l8y5oEoz9bmhj8zg7KY-tuXVWwOo)
+* A.1a: Course introduction [slides](https://docs.google.com/presentation/d/1B8mOhQOvRb7aK2-l8y5oEoz9bmhj8zg7KY-tuXVWwOo) and pre-survey
 * A.1b: Bash basics [slides](https://docs.google.com/presentation/d/1ugVZpA1dBf-STiqx_rB6aMMM2ymirv50XBYTLjajKq8) and notebook
 * A.2a: Jupyter basics [slides](https://docs.google.com/presentation/d/1uSNAH_kLjUuNCB38JPH1dZNcPRGB4xTnRw7s6sLZSQc) and [notebook](Module-1_bash-jupyter-git/1.3_jupyter-basics.ipynb)
-* A.2b:
-
-
-#### 1.4 File manipulation
-* [slides](https://docs.google.com/presentation/d/1v99KZHKdKDSsS3D3gerX_NpfoKEm6eO3a5euqxbZ0UA)
-* [notebook](Module-1_bash-jupyter-git/1.4_working-with-files.ipynb)
-
-#### 1.5 Redirection and pipes
-* [slides](https://docs.google.com/presentation/d/1X88Zjiyo7LfJVVAKhvJKNKEsJMLgkPYQtCXHzkWg3uE)
-* [notebook](Module-1_bash-jupyter-git/1.5_redirection-and-pipes.ipynb)
-
-#### 1.6 awk
-* [slides](https://docs.google.com/presentation/d/1ejePOkEU7FVSqXUPtpM89neLXP7nR24R9Cb24QSyeqw)
-* [notebook](Module-1_bash-jupyter-git/1.6_awk.ipynb)
-
-#### 1.7 git
-* [how to find your homeworks again...](Module-1_bash-jupyter-git/git_reset_local_repo.ipynb)
-* [slides](https://drive.google.com/open?id=11QUQRnKRmCQukB0pL82x9Kf7x5zyjEHe)
-* [notebook](Module-1_bash-jupyter-git/1.7_for_loop_and_string_replacement.ipynb)
+* A.2b: File manipulation [slides](https://docs.google.com/presentation/d/1v99KZHKdKDSsS3D3gerX_NpfoKEm6eO3a5euqxbZ0UA) and [notebook](Module-1_bash-jupyter-git/1.4_working-with-files.ipynb) 
+* A.3a: Pipes [slides](https://docs.google.com/presentation/d/1X88Zjiyo7LfJVVAKhvJKNKEsJMLgkPYQtCXHzkWg3uE) and [notebook](Module-1_bash-jupyter-git/1.5_redirection-and-pipes.ipynb)
+* A.3b: Programming in awk [slides](https://docs.google.com/presentation/d/1ejePOkEU7FVSqXUPtpM89neLXP7nR24R9Cb24QSyeqw) and [notebook](Module-1_bash-jupyter-git/1.6_awk.ipynb)
+* A.4a: Git to [retrieve your homework](Module-1_bash-jupyter-git/git_reset_local_repo.ipynb), [slides](https://drive.google.com/open?id=11QUQRnKRmCQukB0pL82x9Kf7x5zyjEHe), and [notebook](Module-1_bash-jupyter-git/1.7_for_loop_and_string_replacement.ipynb)
 
 #### 1.8 looping
 * [notebook](Module-1_bash-jupyter-git/1.8_find_git_stringreplacement_questions.ipynb)

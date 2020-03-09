@@ -38,13 +38,10 @@ Teaching Assistants (TAs): Huitian (Yolanda) Diao, Karthik Gangavarapu, Shang-Fu
 
 ## Course materials
 
-### Unit A: Bash, Juypter and git
+### Unit A: Bash, Juypter and Git
+* A.1: Course introduction [slides]((https://docs.google.com/presentation/d/1B8mOhQOvRb7aK2-l8y5oEoz9bmhj8zg7KY-tuXVWwOo)
+* A.2: Bash basics [slides](https://docs.google.com/presentation/d/1ugVZpA1dBf-STiqx_rB6aMMM2ymirv50XBYTLjajKq8)
 
-#### 1.1 Course intro: 
-* [slides](https://docs.google.com/presentation/d/1B8mOhQOvRb7aK2-l8y5oEoz9bmhj8zg7KY-tuXVWwOo)
-
-#### 1.2 Bash basics
-* [slides](https://docs.google.com/presentation/d/1ugVZpA1dBf-STiqx_rB6aMMM2ymirv50XBYTLjajKq8)
 
 #### 1.3 Jupyter basics
 * [slides](https://docs.google.com/presentation/d/1uSNAH_kLjUuNCB38JPH1dZNcPRGB4xTnRw7s6sLZSQc)

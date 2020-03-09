@@ -48,9 +48,9 @@ Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Y
 * A.4a: Git to [retrieve your homework](Module-1_bash-jupyter-git/git_reset_local_repo.ipynb), [slides](https://drive.google.com/open?id=11QUQRnKRmCQukB0pL82x9Kf7x5zyjEHe), and [notebook](Module-1_bash-jupyter-git/1.7_for_loop_and_string_replacement.ipynb)
 * A.4b: Loops slides and [notebook](Module-1_bash-jupyter-git/1.8_find_git_stringreplacement_questions.ipynb)
 * A.4c: Overview of Unit A
- * Bash handout 1 [notebook](Module-1_bash-jupyter-git/week1-1_bash.md)
- * Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
- * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
+  * Bash handout 1 [notebook](Module-1_bash-jupyter-git/week1-1_bash.md)
+  * Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
+  * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
 
 ### Unit B: Exploration of RNA-Seq and scRNA-Seq utilizng R
 #### 2.1 R objects

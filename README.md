@@ -8,7 +8,7 @@ By the end of this course, you will: </br>
 3. .. </br>
 
 Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) and Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)) </br>
-Teaching Assistants (TAs): Huitian (Yolanda) Diao, Karthik Gangavarapu, Shang-Fu Chen </br> 
+Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Yolanda-HT)), Karthik Gangavarapu ([@gkarthik](https://github.com/gkarthik)), Shang-Fu Chen </br> 
 
 ## Prerequisites
 
@@ -46,17 +46,13 @@ Teaching Assistants (TAs): Huitian (Yolanda) Diao, Karthik Gangavarapu, Shang-Fu
 * A.3a: Pipes [slides](https://docs.google.com/presentation/d/1X88Zjiyo7LfJVVAKhvJKNKEsJMLgkPYQtCXHzkWg3uE) and [notebook](Module-1_bash-jupyter-git/1.5_redirection-and-pipes.ipynb)
 * A.3b: Programming in awk [slides](https://docs.google.com/presentation/d/1ejePOkEU7FVSqXUPtpM89neLXP7nR24R9Cb24QSyeqw) and [notebook](Module-1_bash-jupyter-git/1.6_awk.ipynb)
 * A.4a: Git to [retrieve your homework](Module-1_bash-jupyter-git/git_reset_local_repo.ipynb), [slides](https://drive.google.com/open?id=11QUQRnKRmCQukB0pL82x9Kf7x5zyjEHe), and [notebook](Module-1_bash-jupyter-git/1.7_for_loop_and_string_replacement.ipynb)
+* A.4b: Loops slides and [notebook](Module-1_bash-jupyter-git/1.8_find_git_stringreplacement_questions.ipynb)
+* A.4c: Overview of Unit A
+ * Bash handout 1 [notebook](Module-1_bash-jupyter-git/week1-1_bash.md)
+ * Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
+ * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
 
-#### 1.8 looping
-* [notebook](Module-1_bash-jupyter-git/1.8_find_git_stringreplacement_questions.ipynb)
-
-
-#### Yolanda's handouts
-* Bash handout 1 [notebook](Module-1_bash-jupyter-git/week1-1_bash.md)
-* Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
-* Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
-
-### Module 2: R
+### Unit B: Exploration of RNA-Seq and scRNA-Seq utilizng R
 #### 2.1 R objects
 * [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-1.pptx)
 * [notebook](Unit1-module2-R/R.intro.1.ipynb)

@@ -3,12 +3,12 @@ Welcome to the Applied Bioinformatics course offered at [The Scripps Research In
 Course materials from previous years are available [here](https://github.com/SuLab/Applied-Bioinformatics/tree/master). </br> 
 
 This course is available in [2] parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
-i.  Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks </br>
+* Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks </br>
 1. Use the Bash shell for file manipulation and navigation of the file system </br>
 2. Use R code to perform exploratory data analysis of data in files </br>
 3. Use Jjupyter Nnotebooks for note-keeping R code </br>
 4. Use Ggit and GgitHhub for code versioning (tracking changes of source code) </br>
-ii. Units B-C: Applied Bioinformatics and Computational Biology (ABCB), 8 weeks </br>
+* Units B-C: Applied Bioinformatics and Computational Biology (ABCB), 8 weeks </br>
 
 The reasoning for this internal breakdown of the course is to give individuals an opportunity to "learn from scratch" and then go more in-depth, or choose either or path (solely partake in Unit A or Units B-C) depending on the individuals' needs. </br>
 

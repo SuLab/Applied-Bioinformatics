@@ -28,7 +28,7 @@ The reasoning for this internal breakdown of the course is to give individuals a
 Each week consists of two 90-minute classes, paired with one homework assignment (per week). Within each class are two 45-minute sessions comprising lectures and hands-on exercises. </br> 
 * Unit A (4 wks, dates TBD): Fundamentals of Scientific Computing (FSC), or STBIO 400
   * Week 1: Course Introduction + Bash Basics
-  * Week 2: Jupyter Notebook + Introduction to R 
+  * Week 2: Introduction to R + Jupyter Notebook 
   * Week 3: File Manipulation and Pipes + Loops 
   * Week 4: Version Control with Git + Plotting Publication-Ready Figures
 * Unit B (5 wks, dates TBD): Understanding and Exploration RNA-Seq, or STBIO 440i
@@ -44,7 +44,7 @@ Each week consists of two 90-minute classes, paired with one homework assignment
 
 ## Course materials
 
-### Unit A: Bash, Juypter and Git
+### Unit A: Bash, R, Jupyter and Git
 * A.1a: Course introduction [slides](https://docs.google.com/presentation/d/1B8mOhQOvRb7aK2-l8y5oEoz9bmhj8zg7KY-tuXVWwOo) and pre-survey
 * A.1b: Bash basics [slides](https://docs.google.com/presentation/d/1ugVZpA1dBf-STiqx_rB6aMMM2ymirv50XBYTLjajKq8) and notebook
 * A.2a: Jupyter basics [slides](https://docs.google.com/presentation/d/1uSNAH_kLjUuNCB38JPH1dZNcPRGB4xTnRw7s6sLZSQc) and [notebook](Module-1_bash-jupyter-git/1.3_jupyter-basics.ipynb)
@@ -58,7 +58,7 @@ Each week consists of two 90-minute classes, paired with one homework assignment
   * Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
   * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
 
-### Unit B: Exploration of RNA-Seq and scRNA-Seq utilizing R
+### Unit B: Exploration of RNA-Seq via utilizing R
 * B.5a: Introduction to R [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-1.pptx) and [notebook](Unit1-module2-R/R.intro.1.ipynb) with [sample answer](Unit1-module2-R/R.intro.1.practice2.1.ipynb)
 * B.5b: R operations [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-2.pptx) and [notebook](Unit1-module2-R/R.intro.2.ipynb) with sample answers [2](Unit1-module2-R/R.intro.1.practice2.2.ipynb) and [3](Unit1-module2-R/R.intro.1.practice2.3.ipynb) 
 * B.6a: R review [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-3.pptx) and sample answer [4](Unit1-module2-R/R.intro.1.practice2.4.ipynb) with [extension info on loops](https://docs.google.com/presentation/d/1y0Yoyvejc8mp3MZWKPAw_u4sj5-wN4CSAi2U30IkWAs/)

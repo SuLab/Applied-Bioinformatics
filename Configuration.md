@@ -1,7 +1,7 @@
 This file contains instructions for how to install Command line, R, and Jupyter Notebook (using Anaconda, includes Python 3) all on your personal computer. Instructions are provided for MacOS and Windows 10. If you do not have access to a MacOS or Windows 10 computer, contact the course instructors. </br>
 
 *Encounter a problem that conflicts with the instructions below? Submit it as an 'Issue'*
-![Github Issue](https://github.com/sabahzero/SuLab-Projects/blob/master/Images/AB-Issue.png)
+![Github Issue](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Images/AB-Issue.png)
 
 
 ## MacOS

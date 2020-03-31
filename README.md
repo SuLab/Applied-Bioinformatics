@@ -7,10 +7,10 @@ Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Y
 
 This course is available in [2] parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
 * Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks </br>
-1. Use the Bash shell for file manipulation and navigation of the file system </br>
-2. Use R code to perform exploratory data analysis of data in files </br>
-3. Use Jjupyter Nnotebooks for note-keeping R code </br>
-4. Use Ggit and GgitHhub for code versioning (tracking changes of source code) </br>
+1. Learn and utilize the Bash shell for file manipulation and navigation of the file system </br>
+2. Learn and utilize R code to perform exploratory data analysis of data in files </br>
+3. Learn and utilize Jupyter Notebooks for note-keeping R code </br>
+4. Learn and utilize Git and GitHub for code versioning (tracking changes of source code) </br>
 * Units B-C: Applied Bioinformatics and Computational Biology (ABCB), 8 weeks </br>
 
 The reasoning for this internal breakdown of the course is to give individuals an opportunity to "learn from scratch" and then go more in-depth, or choose either or path (solely partake in Unit A or Units B-C) depending on the individuals' needs. </br>

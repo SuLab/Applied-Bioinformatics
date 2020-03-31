@@ -1,15 +1,24 @@
-This file contains instructions for how to install R and jupyter on your computer. Instructions are provided for Windows 10 and MacOS.  If you do not have access to a Windows 10 or MacOS computer, contact the course instructors. 
+This file contains instructions for how to install Command line, R, and Jupyter Notebook (using Anaconda, includes Python 3) to then configure for R all on your computer. Instructions are provided for MacOS and Windows 10. If you do not have access to a MacOS and Windows 10 computer, contact the course instructors. </br>
 
-## Mac
+*Encounter a problem with installation that conflict with the instructions below? Submit it as an 'Issue'*
+![Github Issue](https://github.com/sabahzero/SuLab-Projects/blob/master/Images/AB-Issue.png)
 
-### 1. install python3 and jupyter using anaconda
-* follow installation instructions for python3.6 at https://www.anaconda.com/download#macos .
 
-### 2. install R
-* download and install R-3.5.1.pkg from https://cran.r-project.org/bin/macosx/
+## MacOS
 
-### 3. install xcode-select
-* open a terminal and run `xcode-select --install`
+### 1. Install xcode-select for command line (Unix shell)
+* Go to 'Applicatons' and open Terminal
+* Once in Terminal, run `xcode-select --install` for utilizing command line
+
+### 2. Install R
+* Download and install R-3.6.3.pkg from https://cran.r-project.org/bin/macosx/
+* Download and install the 'Free' RStudio Desktop from https://rstudio.com/products/rstudio/download/
+
+### 3. Install Jupyter Notebook using Anaconda 
+* Follow installation instructions for python3.7 at https://www.anaconda.com/download#macos </br>
+*Jupyter Notebook is written in Python, which is why we need to install Python to access Jupyter Notebook. We will configure such that we can write R code in Jupyter using the instructions below. Why not just code in Python? Different languages serve different utilies. For our purposes, it's most appropriate to utilize R*
+
+
 
 ### 4. configure R kernel
 * launch R

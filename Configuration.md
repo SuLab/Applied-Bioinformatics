@@ -41,8 +41,7 @@ $ jupyter notebook
 ```
 * Jupyter should have automatically started in a browser. You should see something like this:
 ![Jupyter root view](https://user-images.githubusercontent.com/2635409/42073862-da786178-7b1d-11e8-93a6-ccab73c21b1e.png)
-* Notice that if you go to start a new notebook, you can only see Python3 (we want to use R)
-![Python3](https://github.com/sabahzero/SuLab-Projects/blob/master/Images/AB-Python3.png)
+* Notice that if you go to start a new notebook, you can only see Python3 (we want to use R) </br>
 *Jupyter Notebook is written in Python, which is why we need to install Python to access Jupyter Notebook. Now that it's installed, we can set it up such that we can write R code, using the instructions below. Why not just code in Python? Different languages serve different utilies. For our purposes, it's most appropriate to utilize R*
 
 ### 4. configure R kernel

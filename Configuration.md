@@ -15,7 +15,7 @@ This file contains instructions for how to install Command line, R, and Jupyter 
 * Download and install the 'Free' RStudio Desktop from https://rstudio.com/products/rstudio/download/
 
 ### 3. Install Jupyter Notebook using Anaconda 
-* Follow installation instructions for python3.7 at https://www.anaconda.com/download#macos </br></br>
+* Follow installation instructions for python3.7 at https://www.anaconda.com/download#macos
 * Confirm installation of Jupyter Notebook by opening Terminal and running `jupyter notebook`
 * You should see output like this: 
 ```

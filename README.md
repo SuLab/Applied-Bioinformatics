@@ -2,6 +2,9 @@
 Welcome to the Applied Bioinformatics course offered at [The Scripps Research Institute](https://www.scripps.edu//). </br>
 Course materials from previous years are available [here](https://github.com/SuLab/Applied-Bioinformatics/tree/master). </br> 
 
+Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) and Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)) </br>
+Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Yolanda-HT)), Karthik Gangavarapu ([@gkarthik](https://github.com/gkarthik)), Shang-Fu Chen </br> 
+
 This course is available in [2] parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
 * Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks </br>
 1. Use the Bash shell for file manipulation and navigation of the file system </br>
@@ -11,10 +14,6 @@ This course is available in [2] parts and operates under the Computational Biolo
 * Units B-C: Applied Bioinformatics and Computational Biology (ABCB), 8 weeks </br>
 
 The reasoning for this internal breakdown of the course is to give individuals an opportunity to "learn from scratch" and then go more in-depth, or choose either or path (solely partake in Unit A or Units B-C) depending on the individuals' needs. </br>
-
-
-Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) and Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)) </br>
-Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Yolanda-HT)), Karthik Gangavarapu ([@gkarthik](https://github.com/gkarthik)), Shang-Fu Chen </br> 
 
 ## Prerequisites
 

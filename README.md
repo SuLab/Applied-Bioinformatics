@@ -20,7 +20,7 @@ The reasoning for this internal breakdown of the course is to give individuals a
 * An enthusiasm for learning, at whatever level of exprience you may or may not be
 * A Windows 10 or MacOS laptop 
 * Software installation of the following, prior to arrival:
-  * Anaconda for Unix shell and Python 3, R, and Jupyter Notebook [here](Configuration.md) 
+  * Command line, R, and Jupyter Notebook (using Anaconda, includes Python 3) to then configure for R [here](Configuration.md) 
   * R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
 
 ## Schedule at a Glance

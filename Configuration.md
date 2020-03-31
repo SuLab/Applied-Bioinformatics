@@ -16,25 +16,8 @@ This file contains instructions for how to install Command line, R, and Jupyter 
 
 ### 3. Install Jupyter Notebook using Anaconda 
 * Follow installation instructions for python3.7 at https://www.anaconda.com/download#macos </br></br>
-*Jupyter Notebook is written in Python, which is why we need to install Python to access Jupyter Notebook. We will configure such that we can write R code in Jupyter using the instructions below. Why not just code in Python? Different languages serve different utilies. For our purposes, it's most appropriate to utilize R*
-
-
-
-### 4. configure R kernel
-* launch R
-* execute these commands
-```
-jupyterPath <- "/anaconda3/bin"
-jupyterPath2 <- paste(Sys.getenv("HOME"),"/anaconda3/bin",sep="")
-Sys.setenv(PATH = paste(Sys.getenv("PATH"),jupyterPath,jupyterPath2,sep=":"))
-install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
-devtools::install_github('IRkernel/IRkernel')
-IRkernel::installspec()
-```
-
-### 5. start jupyter
-* launch terminal
-* From the bash prompt, execute `jupyter notebook`. You should see output like this: 
+* Confirm installation of Jupyter Notebook by opening Terminal and running `jupyter notebook`
+* You should see output like this: 
 ```
 $ jupyter notebook
 [I 17:13:34.085 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
@@ -56,14 +39,30 @@ $ jupyter notebook
 [I 17:13:39.366 NotebookApp] Adapting to protocol v5.0 for kernel 3769ef70-39e0-4796-9d8d-fab6fb710baf
 [I 17:13:48.603 NotebookApp] Starting buffering for 3769ef70-39e0-4796-9d8d-fab6fb710baf:2ae497a1c403450a8418b96d78d1cd05
 ```
-
-* jupyter should have automatically started in a browser. You should see something like this:
+* Jupyter should have automatically started in a browser. You should see something like this:
 ![Jupyter root view](https://user-images.githubusercontent.com/2635409/42073862-da786178-7b1d-11e8-93a6-ccab73c21b1e.png)
+* Notice that if you go to start a new notebook, you can only see Python3 (we want to use R)
+![Python3](https://github.com/sabahzero/SuLab-Projects/blob/master/Images/AB-Python3.png)
+*Jupyter Notebook is written in Python, which is why we need to install Python to access Jupyter Notebook. Now that it's installed, we can set it up such that we can write R code, using the instructions below. Why not just code in Python? Different languages serve different utilies. For our purposes, it's most appropriate to utilize R*
 
-* confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!
+### 4. configure R kernel
+* Go to Applications, launch R
+* Execute these commands (you can copy/paste the entire section and hit 'run')
+```
+jupyterPath <- "/anaconda3/bin"
+jupyterPath2 <- paste(Sys.getenv("HOME"),"/anaconda3/bin",sep="")
+Sys.setenv(PATH = paste(Sys.getenv("PATH"),jupyterPath,jupyterPath2,sep=":"))
+install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+devtools::install_github('IRkernel/IRkernel')
+IRkernel::installspec()
+```
 
+### 5. Confirm Jupyter Notebook has R
+* Now re-launch Terminal and again execute `jupyter notebook`
+* Confirm the R kernel is successfully installed.  If you see the option for R, then you're all set!
 ![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)
 
+----- below needs to be updated accordingly (mirror order as above)
 
 ## Windows Subsystem for Linux
 

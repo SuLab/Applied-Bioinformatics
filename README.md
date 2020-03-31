@@ -25,21 +25,22 @@ The reasoning for this internal breakdown of the course is to give individuals a
 
 ## Schedule at a Glance
 
-* Unit A (4 wks, dates TBD): Fundamentals of Scientific Computing, or STBIO 400
-  * Week 1: Course Introduction and Bash Basics
-  * Week 2: Jupyter Notebook and File Manipulation
-  * Week 3: File Manipulation cnt'd, Redirection and Pipes
-  * Week 4: Installation of Git, and Loops
-* Unit B (5 wks, dates TBD): Understanding and Exploration RNA-Seq and scRNA-Seq (single cell), or STBIO 440i
-  * Week 5: Introduction to R and Plotting Publication-Ready Figures
-  * Week 6: Continutation of R
-  * Week 7: Introduction to RNA-Seq and Raw Data Ouput
-  * Week 8: RNA-Seq Data Pre-processing, and Introduction to Capstone Project
-  * Week 9: RNA-Seq Data Post-processing and DESeq2
+* Each week consists of two 90-minute classes, paired with one homework assignment (per week). Within each class are two 45-minute sessions comprising lectures and hands-on exercises. </br>
+* Unit A (4 wks, dates TBD): Fundamentals of Scientific Computing (FSC), or STBIO 400
+  * Week 1: Course Introduction + Bash Basics
+  * Week 2: Jupyter Notebook + File Manipulation and Pipes
+  * Week 3: Version Control with Git + Loops
+  * Week 4: Introduction to R + Plotting Publication-Ready Figures
+* Unit B (5 wks, dates TBD): Understanding and Exploration RNA-Seq, or STBIO 440i
+  * Week 5: Continutation of R
+  * Week 6: Introduction to RNA-Seq + Raw Data Ouput
+  * Week 7: Introduction to Capstone Project + RNA-Seq Data Pre-processing
+  * Week 8: RNA-Seq Data Pre-processing cnt'd + RNA-Seq Data Post-processing
+  * Week 9: RNA-Seq Data Post-processing cnt'd + DESeq2
 * Unit C (3 wks, dates TBD): Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or STBIO 440ii
   * Week 10: Capstone Project Workshop
-  * Week 11: Capstone Project Presentations
-  * Week 12: An Overview of Additional Bioinformatics Workflows (Metagenomics and Proteomics + resources for others)
+  * Week 11: An Overview of Additional Bioinformatics Workflows (Metagenomics and Proteomics + resources for others) 
+  * Week 12: Capstone Project Presentations
 
 ## Course materials
 

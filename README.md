@@ -25,12 +25,12 @@ The reasoning for this internal breakdown of the course is to give individuals a
 
 ## Schedule at a Glance
 
-Each week consists of two 90-minute classes, paired with one homework assignment (per week). Within each class are two 45-minute sessions comprising lectures and hands-on exercises. </br> </br>
+Each week consists of two 90-minute classes, paired with one homework assignment (per week). Within each class are two 45-minute sessions comprising lectures and hands-on exercises. </br> 
 * Unit A (4 wks, dates TBD): Fundamentals of Scientific Computing (FSC), or STBIO 400
   * Week 1: Course Introduction + Bash Basics
-  * Week 2: Jupyter Notebook + File Manipulation and Pipes
-  * Week 3: Version Control with Git + Loops
-  * Week 4: Introduction to R + Plotting Publication-Ready Figures
+  * Week 2: Jupyter Notebook + Introduction to R 
+  * Week 3: File Manipulation and Pipes + Loops 
+  * Week 4: Version Control with Git + Plotting Publication-Ready Figures
 * Unit B (5 wks, dates TBD): Understanding and Exploration RNA-Seq, or STBIO 440i
   * Week 5: Continutation of R
   * Week 6: Introduction to RNA-Seq + Raw Data Ouput

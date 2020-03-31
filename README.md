@@ -7,7 +7,7 @@ Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Y
 
 This course is available in [2] parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
 * Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks </br>
-1. Learn and utilize the Bash shell for file manipulation and navigation of the file system </br>
+1. Learn and utilize the Bash (Unix shell) for file manipulation and navigation of the file system </br>
 2. Learn and utilize R code to perform exploratory data analysis of data in files </br>
 3. Learn and utilize Jupyter Notebooks for note-keeping R code </br>
 4. Learn and utilize Git and GitHub for code versioning (tracking changes of source code) </br>
@@ -20,8 +20,8 @@ The reasoning for this internal breakdown of the course is to give individuals a
 * An enthusiasm for learning, at whatever level of exprience you may or may not be
 * A Windows 10, MacOS, or Linux laptop 
 * Software installation of the following, prior to arrival:
-  * Jupyter Notebook with programming languages Python3 (automatic) and R [here](Configuration.md) 
-  * Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
+  * Anaconda for Unix shell and Python 3, R, and Jupyter Notebook [here](Configuration.md) 
+  * R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
 
 ## Schedule at a Glance
 

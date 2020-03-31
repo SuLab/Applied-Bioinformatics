@@ -25,7 +25,7 @@ The reasoning for this internal breakdown of the course is to give individuals a
 
 ## Schedule at a Glance
 
-* Each week consists of two 90-minute classes, paired with one homework assignment (per week). Within each class are two 45-minute sessions comprising lectures and hands-on exercises. </br>
+Each week consists of two 90-minute classes, paired with one homework assignment (per week). Within each class are two 45-minute sessions comprising lectures and hands-on exercises. </br> </br>
 * Unit A (4 wks, dates TBD): Fundamentals of Scientific Computing (FSC), or STBIO 400
   * Week 1: Course Introduction + Bash Basics
   * Week 2: Jupyter Notebook + File Manipulation and Pipes

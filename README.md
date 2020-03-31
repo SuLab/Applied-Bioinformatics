@@ -18,8 +18,8 @@ The reasoning for this internal breakdown of the course is to give individuals a
 ## Prerequisites
 
 * An enthusiasm for learning, at whatever level of exprience you may or may not be
-* A Windows 10 or macOS laptop 
-* Installation of the following, prior to arrival:
+* A Windows 10, MacOS, or Linux laptop 
+* Software installation of the following, prior to arrival:
   * Jupyter Notebook with programming languages Python3 (automatic) and R [here](Configuration.md) 
   * Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
 

@@ -42,7 +42,7 @@ Understanding and Exploration RNA-Seq, or STBIO 440i
 * Unit C (3 wks, dates TBD): </br>
 Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or STBIO 440ii
   * Week 10: Capstone Project Workshop
-  * Week 11: An Overview of Additional Bioinformatics Workflows (Metagenomics and Proteomics + resources for others) 
+  * Week 11: An Overview of Additional Bioinformatics Workflows (Metagenomics, Proteomics, and other resources) 
   * Week 12: Capstone Project Presentations
 
 ## Course Materials

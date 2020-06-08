@@ -62,8 +62,8 @@ $ jupyter notebook
 
 ### 1. install linux
 * follow instructions at https://docs.microsoft.com/en-us/windows/wsl/install-win10
-   * choose "Ubuntu" for your linux distribution.
-   * be sure to follow the link in "Complete initialization of your distro", which will take you to [this page](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro).
+   * follow instructions for "WSL 1"
+   * choose "Ubuntu 18.04 LTS" for your linux distribution
 
 ### 2. install cmder
 * download 'mini' version from http://cmder.net/
@@ -85,15 +85,7 @@ pip3 install jupyter
 ```
 
 ### 4. install R in linux subsystem
-* determine your version of ubuntu by executing `lsb_release -a` in a terminal/cmder window
-* **for ubuntu 16.04**, execute these commands: 
-```
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/'
-curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE298A3A825C0D65DFD57CBB651716619E084DAB9" | sudo apt-key add
-sudo apt update
-sudo apt install r-base
-```
-* **for ubuntu 18.04**, execute these commands: 
+* execute these commands: 
 ```
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
 curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE298A3A825C0D65DFD57CBB651716619E084DAB9" | sudo apt-key add

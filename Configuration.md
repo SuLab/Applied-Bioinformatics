@@ -1,23 +1,31 @@
-This file contains instructions for how to install Command line, R, and Jupyter Notebook (using Anaconda, includes Python 3) all on your personal computer. Instructions are provided for MacOS and Windows 10. If you do not have access to a MacOS or Windows 10 computer, contact the course instructors. </br>
+This file contains instructions for how to install R and jupyter on your computer. Instructions are provided for Windows 10 and MacOS.  If you do not have access to a Windows 10 or MacOS computer, contact the course instructors. 
 
-*Encounter a problem that conflicts with the instructions below? Submit it as an 'Issue'*
-![Github Issue](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Images/AB-Issue.png)
+## Mac
 
+### 1. install python3 and jupyter using anaconda
+* follow installation instructions for python3.6 at https://www.anaconda.com/download#macos .
 
-## MacOS
+### 2. install R
+* download and install R-3.5.1.pkg from https://cran.r-project.org/bin/macosx/
 
-### 1. Install xcode-select for command line (Unix shell)
-* Go to 'Applicatons' and open Terminal
-* Once in Terminal, run `xcode-select --install` for utilizing command line
+### 3. install xcode-select
+* open a terminal and run `xcode-select --install`
 
-### 2. Install R
-* Download and install R-3.6.3.pkg from https://cran.r-project.org/bin/macosx/
-* Download and install the 'Free' RStudio Desktop from https://rstudio.com/products/rstudio/download/
+### 4. configure R kernel
+* launch R
+* execute these commands
+```
+jupyterPath <- "/anaconda3/bin"
+jupyterPath2 <- paste(Sys.getenv("HOME"),"/anaconda3/bin",sep="")
+Sys.setenv(PATH = paste(Sys.getenv("PATH"),jupyterPath,jupyterPath2,sep=":"))
+install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+devtools::install_github('IRkernel/IRkernel')
+IRkernel::installspec()
+```
 
-### 3. Install Jupyter Notebook using Anaconda 
-* Follow installation instructions for python3.7 at https://www.anaconda.com/download#macos
-* Confirm installation of Jupyter Notebook by opening Terminal and running `jupyter notebook`
-* You should see output like this: 
+### 5. start jupyter
+* launch terminal
+* From the bash prompt, execute `jupyter notebook`. You should see output like this: 
 ```
 $ jupyter notebook
 [I 17:13:34.085 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
@@ -39,26 +47,12 @@ $ jupyter notebook
 [I 17:13:39.366 NotebookApp] Adapting to protocol v5.0 for kernel 3769ef70-39e0-4796-9d8d-fab6fb710baf
 [I 17:13:48.603 NotebookApp] Starting buffering for 3769ef70-39e0-4796-9d8d-fab6fb710baf:2ae497a1c403450a8418b96d78d1cd05
 ```
-* Jupyter should have automatically started in a browser. You should see something like this:
+
+* jupyter should have automatically started in a browser. You should see something like this:
 ![Jupyter root view](https://user-images.githubusercontent.com/2635409/42073862-da786178-7b1d-11e8-93a6-ccab73c21b1e.png)
-* Notice that if you go to start a new notebook, you can only see Python3 (we want to use R) </br>
-*Jupyter Notebook is written in Python, which is why we need to install Python to access Jupyter Notebook. Now that it's installed, we can set it up such that we can write R code, using the instructions below. Why not just code in Python? Different languages serve different utilies. For our purposes, it's most appropriate to utilize R*
 
-### 4. configure R kernel
-* Go to Applications, launch R
-* Execute these commands (you can copy/paste the entire section and hit 'run')
-```
-jupyterPath <- "/anaconda3/bin"
-jupyterPath2 <- paste(Sys.getenv("HOME"),"/anaconda3/bin",sep="")
-Sys.setenv(PATH = paste(Sys.getenv("PATH"),jupyterPath,jupyterPath2,sep=":"))
-install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
-devtools::install_github('IRkernel/IRkernel')
-IRkernel::installspec()
-```
+* confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!
 
-### 5. Confirm Jupyter Notebook has R
-* Now re-launch Terminal and again execute `jupyter notebook`
-* Confirm the R kernel is successfully installed.  If you see the option for R, then you're all set!
 ![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)
 
 
@@ -68,8 +62,8 @@ IRkernel::installspec()
 
 ### 1. install linux
 * follow instructions at https://docs.microsoft.com/en-us/windows/wsl/install-win10
-   * follow instructions for "WSL 1"
-   * choose "Ubuntu 18.04 LTS" for your linux distribution.
+   * choose "Ubuntu" for your linux distribution.
+   * be sure to follow the link in "Complete initialization of your distro", which will take you to [this page](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro).
 
 ### 2. install cmder
 * download 'mini' version from http://cmder.net/
@@ -91,7 +85,15 @@ pip3 install jupyter
 ```
 
 ### 4. install R in linux subsystem
-* execute these commands: 
+* determine your version of ubuntu by executing `lsb_release -a` in a terminal/cmder window
+* **for ubuntu 16.04**, execute these commands: 
+```
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/'
+curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE298A3A825C0D65DFD57CBB651716619E084DAB9" | sudo apt-key add
+sudo apt update
+sudo apt install r-base
+```
+* **for ubuntu 18.04**, execute these commands: 
 ```
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
 curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE298A3A825C0D65DFD57CBB651716619E084DAB9" | sudo apt-key add

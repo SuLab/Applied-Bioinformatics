@@ -61,7 +61,6 @@ IRkernel::installspec()
 * Confirm the R kernel is successfully installed.  If you see the option for R, then you're all set!
 ![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)
 
------ below needs to be updated accordingly (mirror order as above)
 
 ## Windows Subsystem for Linux
 

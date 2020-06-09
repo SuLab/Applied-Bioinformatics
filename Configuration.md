@@ -62,20 +62,11 @@ $ jupyter notebook
 
 ### 1. install linux
 * follow instructions at https://docs.microsoft.com/en-us/windows/wsl/install-win10
-   * choose "Ubuntu" for your linux distribution.
-   * be sure to follow the link in "Complete initialization of your distro", which will take you to [this page](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro).
+   * follow instructions for "WSL 1"
+   * choose "Ubuntu 18.04 LTS" for your linux distribution
 
-### 2. install cmder
-* download 'mini' version from http://cmder.net/
-* uncompress and copy folder to `C:\Program Files\`
-* add `C:\Program Files\cmder_mini` to your `Path` environment variable ([instructions](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/))
-
-### 3. install juypter
-* launch cmder
-   * you may have to log in/out for cmder to be accessible via your start menu, or just click the cmder file in windows explorer
-* open a bash window
-   * within cmder, press control-T.  From the "startup command" menu, choose `{WSL::bash}` or `{bash::ubuntu}`
-   * click the Start button
+### 2. install juypter
+* open an ubuntu window from the Windows start menu
 * run the following commands
 ```
 sudo apt update
@@ -84,16 +75,8 @@ sudo apt install python3 python3-pip ipython3
 pip3 install jupyter
 ```
 
-### 4. install R in linux subsystem
-* determine your version of ubuntu by executing `lsb_release -a` in a terminal/cmder window
-* **for ubuntu 16.04**, execute these commands: 
-```
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial-cran35/'
-curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE298A3A825C0D65DFD57CBB651716619E084DAB9" | sudo apt-key add
-sudo apt update
-sudo apt install r-base
-```
-* **for ubuntu 18.04**, execute these commands: 
+### 3. install R in linux subsystem
+* execute these commands: 
 ```
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
 curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE298A3A825C0D65DFD57CBB651716619E084DAB9" | sudo apt-key add
@@ -101,21 +84,21 @@ sudo apt update
 sudo apt install r-base
 ```
 
-### 5. install httr and git2r dependencies
+### 4. install httr and git2r dependencies
 ```
-sudo apt-get install libssl-dev libcurl4-gnutls-dev
+sudo apt-get install libssl-dev libcurl4-gnutls-dev libxml2-dev
 ```
 
-### 6. configure R kernel for jupyter
+### 5. configure R kernel for jupyter
 * launch R by typing `R` at the terminal prompt
 * execute these commands:
 ```R
-install.packages(c('repr','IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+install.packages(c('repr','IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'), INSTALL_opts = '--no-lock')
 devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
 
-### 7. start jupyter
+### 6. start jupyter
 * From a bash prompt, execute `jupyter notebook`. You should see output like this: 
 ```
 [I 09:26:38.967 NotebookApp] Serving notebooks from local directory: /usr/local/lib/python3.5/dist-packages
@@ -136,3 +119,12 @@ IRkernel::installspec()
 * confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!
 
 ![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)
+
+### (optional) install cmder
+* download 'mini' version from http://cmder.net/
+* uncompress and copy folder to `C:\Program Files\`
+* add `C:\Program Files\cmder_mini` to your `Path` environment variable ([instructions](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/))
+   * you may have to log in/out for cmder to be accessible via your start menu, or just click the cmder file in windows explorer
+* to open a bash window
+   * within cmder, press control-T.  From the "startup command" menu, choose `{WSL::bash}` or `{bash::ubuntu}`
+   * click the Start button

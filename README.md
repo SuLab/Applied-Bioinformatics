@@ -46,13 +46,13 @@ Understanding and Exploration RNA-Seq, or STBIO 440i
 * Unit C (3 wks, dates TBD): </br>
 Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or STBIO 440ii
   * Week 10: Capstone Project Workshop
-  * Week 11: An Overview of Additional Bioinformatics Workflows (Metagenomics, Proteomics, and other resources) 
+  * Week 11: An Overview of Additional Bioinformatics Workflows (Metagenomics, Proteomics, and others) 
   * Week 12: Capstone Project Presentations
 
 ## Course Materials
 
 ### Unit A: Bash, R, Jupyter and Git
-* A.1a: Course introduction [slides](https://docs.google.com/presentation/d/1B8mOhQOvRb7aK2-l8y5oEoz9bmhj8zg7KY-tuXVWwOo) and pre-survey
+* A.1a: Introduction to the course, [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing) and pre-survey
 * A.1b: Bash basics [slides](https://docs.google.com/presentation/d/1ugVZpA1dBf-STiqx_rB6aMMM2ymirv50XBYTLjajKq8) and notebook
 * A.2a: Jupyter basics [slides](https://docs.google.com/presentation/d/1uSNAH_kLjUuNCB38JPH1dZNcPRGB4xTnRw7s6sLZSQc) and [notebook](Module-1_bash-jupyter-git/1.3_jupyter-basics.ipynb)
 * A.2b: File manipulation [slides](https://docs.google.com/presentation/d/1v99KZHKdKDSsS3D3gerX_NpfoKEm6eO3a5euqxbZ0UA) and [notebook](Module-1_bash-jupyter-git/1.4_working-with-files.ipynb) 

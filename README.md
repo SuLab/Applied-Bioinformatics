@@ -13,7 +13,7 @@ This course is available in [2] parts and operates under the Computational Biolo
 4. Learn and utilize Git and GitHub for code versioning (tracking changes of source code) </br>
 * Units B-C: Applied Bioinformatics and Computational Biology (ABCB), 8 weeks (2 credits) </br>
 1. Learn the fundamentals of RNA-Seq, and its application in the larger biological research schema. </br>
-2. Understand and apply how R is used in analyses of RNA-Seq data, from raw data to publishable statistics and figures. </br>
+2. Application of R in analyses of RNA-Seq data, from raw data to publishable statistics and figures. </br>
 3. Practice and present on learned R skillset through published data via Capstone project. </br>
 4. Understand and practice of peer review through self-evaluation and evaluation of peers. </br> 
 

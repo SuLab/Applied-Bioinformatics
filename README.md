@@ -54,6 +54,9 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 ### Unit A: Bash, R, Jupyter and Git
 * A.1a: Introduction to the course, [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing) and pre-survey
 * A.1b: Bash basics, [slides](https://docs.google.com/presentation/d/1cjYM4cq7nQxLqPT0840vcCYzDGUvpBtMaUNLRv6jrWU/edit?usp=sharing) and HW 1
+  * Bash handout 1 [notebook](Module-1_bash-jupyter-git/week1-1_bash.md)
+  * Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
+  * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
 * A.2a: Jupyter basics [slides](https://docs.google.com/presentation/d/1uSNAH_kLjUuNCB38JPH1dZNcPRGB4xTnRw7s6sLZSQc) and [notebook](Module-1_bash-jupyter-git/1.3_jupyter-basics.ipynb)
 * A.2b: File manipulation [slides](https://docs.google.com/presentation/d/1v99KZHKdKDSsS3D3gerX_NpfoKEm6eO3a5euqxbZ0UA) and [notebook](Module-1_bash-jupyter-git/1.4_working-with-files.ipynb) 
 * A.3a: Pipes [slides](https://docs.google.com/presentation/d/1X88Zjiyo7LfJVVAKhvJKNKEsJMLgkPYQtCXHzkWg3uE) and [notebook](Module-1_bash-jupyter-git/1.5_redirection-and-pipes.ipynb)
@@ -61,9 +64,6 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 * A.4a: Git to [retrieve your homework](Module-1_bash-jupyter-git/git_reset_local_repo.ipynb), [slides](https://drive.google.com/open?id=11QUQRnKRmCQukB0pL82x9Kf7x5zyjEHe), and [notebook](Module-1_bash-jupyter-git/1.7_for_loop_and_string_replacement.ipynb)
 * A.4b: Loops slides and [notebook](Module-1_bash-jupyter-git/1.8_find_git_stringreplacement_questions.ipynb)
 * A.4c: Overview of Unit A
-  * Bash handout 1 [notebook](Module-1_bash-jupyter-git/week1-1_bash.md)
-  * Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
-  * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
 
 ### Unit B: Exploration of RNA-Seq via Utilizing R
 R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)

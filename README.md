@@ -53,7 +53,7 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 
 ### Unit A: Bash, R, Jupyter and Git
 * A.1a: Introduction to the course, [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing) and pre-survey
-* A.1b: Bash basics [slides](https://docs.google.com/presentation/d/1ugVZpA1dBf-STiqx_rB6aMMM2ymirv50XBYTLjajKq8) and notebook
+* A.1b: Bash basics, [slides](https://docs.google.com/presentation/d/1cjYM4cq7nQxLqPT0840vcCYzDGUvpBtMaUNLRv6jrWU/edit?usp=sharing) and HW 1
 * A.2a: Jupyter basics [slides](https://docs.google.com/presentation/d/1uSNAH_kLjUuNCB38JPH1dZNcPRGB4xTnRw7s6sLZSQc) and [notebook](Module-1_bash-jupyter-git/1.3_jupyter-basics.ipynb)
 * A.2b: File manipulation [slides](https://docs.google.com/presentation/d/1v99KZHKdKDSsS3D3gerX_NpfoKEm6eO3a5euqxbZ0UA) and [notebook](Module-1_bash-jupyter-git/1.4_working-with-files.ipynb) 
 * A.3a: Pipes [slides](https://docs.google.com/presentation/d/1X88Zjiyo7LfJVVAKhvJKNKEsJMLgkPYQtCXHzkWg3uE) and [notebook](Module-1_bash-jupyter-git/1.5_redirection-and-pipes.ipynb)

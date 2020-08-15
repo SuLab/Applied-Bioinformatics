@@ -1,4 +1,4 @@
-# Configuration: Complete the following one week before class
+# Configuration: Complete the following one week before class ~1 hr
 #### Contact Instructors and TAs for any obstacles encountered -- do this via course Slack channel access > email
 This file contains instructions for how to install terminal (for command line), jupyter notebook (as part of anaconda, which includes python 3), and R (as well as the R kernel for jupyter notebook) on your personal computer. Instructions are provided based on MacOS or Windows 10.  If you do not have access to a MacOS or Windows 10 computer, contact the course instructors. 
 

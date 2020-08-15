@@ -32,8 +32,9 @@ Command line (for Unix shell), R, and Jupyter Notebook (using Anaconda, includes
 Each week consists of two 90-minute classes starting at 8:15 AM PST and ending at 9:45 AM PST from Sep 8th through Dec 10th, paired with one homework assignment (per week, weeks 1-9). Within each class are two 45-minute sessions comprising of ~15-min lectures and ~30-min hands-on exercises with a brief recap at the end of the 90-minute period. </br> 
 * Unit A (4 wks): </br> 
 Fundamentals of Scientific Computing (FSC), or STBIO 400
-  * Week 1: Course Introduction + Bash Basics + Jupyter Notebook
-  * Week 2: File Manipulation and Pipes + Loops 
+  * Week 1: Bash Basics + Jupyter Notebook 
+  -
+  * Week 2: Loops 
   * Week 3: Introduction to R
   * Week 4: Version Control with Git + Plotting Publication-Ready Figures
 * Unit B (5 wks): </br>

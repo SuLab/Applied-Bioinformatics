@@ -23,7 +23,7 @@ The reasoning for this internal breakdown of the course is to give individuals a
 
 * An enthusiasm for learning, at whatever level of exprience you may or may not be
 * A Windows 10 or MacOS laptop (inform instructors if you need access to one of these)
-* Software installation prior to arrival: </br>
+* Software installation prior to arrival (give yourself 1-2 hours): </br>
 Command line (for Unix shell), R, and Jupyter Notebook (using Anaconda, includes Python 3) [here](Configuration.md) 
 * Expectations: Individuals following this course either on their own or for credit should conduct professional and considerate behavior, likewise for TAs and Instructors. If you see something, say something. Individuals can typically anticipate feedback within a 48-hour time period during typical business hours. 
 

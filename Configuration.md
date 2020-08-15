@@ -1,19 +1,17 @@
-# Configuration: Complete the following one week before class ~1 hr
-#### Contact Instructors and TAs for any obstacles encountered -- do this via course Slack channel access > email
-This file contains instructions for how to install terminal (for command line), jupyter notebook (as part of anaconda, which includes python 3), and R (as well as the R kernel for jupyter notebook) on your personal computer. Instructions are provided based on MacOS or Windows 10.  If you do not have access to a MacOS or Windows 10 computer, contact the course instructors. 
+This file contains instructions for how to install R and jupyter on your computer. Instructions are provided for Windows 10 and MacOS.  If you do not have access to a Windows 10 or MacOS computer, contact the course instructors. 
 
-## Mac OS *note to scroll to bottom after completing steps 1-5 ['Confirm installations']
+## Mac
 
-### 1. Install python3 and jupyter using anaconda
+### 1. install python3 and jupyter using anaconda
 * follow installation instructions for python3.6 at https://www.anaconda.com/download#macos .
 
-### 2. Install R
-* download and install R-4.0.2.pkg from https://cran.r-project.org/bin/macosx/
+### 2. install R
+* download and install R-3.5.1.pkg from https://cran.r-project.org/bin/macosx/
 
-### 3. Install xcode-select
+### 3. install xcode-select
 * open a terminal and run `xcode-select --install`
 
-### 4. Configure R kernel
+### 4. configure R kernel
 * launch R
 * execute these commands
 ```
@@ -25,7 +23,7 @@ devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
 
-### 5. Start jupyter
+### 5. start jupyter
 * launch terminal
 * From the bash prompt, execute `jupyter notebook`. You should see output like this: 
 ```
@@ -60,12 +58,14 @@ $ jupyter notebook
 
 ## Windows Subsystem for Linux
 
-### 1. Install linux
+**REMINDER:** You must have Windows 10 to be able to use the instructions below.  If you do not have access to a Windows 10 or MacOS computer, contact the course instructors.
+
+### 1. install linux
 * follow instructions at https://docs.microsoft.com/en-us/windows/wsl/install-win10
    * follow instructions for "WSL 1"
    * choose "Ubuntu 18.04 LTS" for your linux distribution
 
-### 2. Install juypter
+### 2. install juypter
 * open an ubuntu window from the Windows start menu
 * run the following commands
 ```
@@ -75,7 +75,7 @@ sudo apt install python3 python3-pip ipython3
 pip3 install jupyter
 ```
 
-### 3. Install R in linux subsystem
+### 3. install R in linux subsystem
 * execute these commands: 
 ```
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
@@ -84,12 +84,12 @@ sudo apt update
 sudo apt install r-base
 ```
 
-### 4. Install httr and git2r dependencies
+### 4. install httr and git2r dependencies
 ```
 sudo apt-get install libssl-dev libcurl4-gnutls-dev libxml2-dev
 ```
 
-### 5. Configure R kernel for jupyter
+### 5. configure R kernel for jupyter
 * launch R by typing `R` at the terminal prompt
 * execute these commands:
 ```R
@@ -98,7 +98,7 @@ devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
 
-### 6. Start jupyter
+### 6. start jupyter
 * From a bash prompt, execute `jupyter notebook`. You should see output like this: 
 ```
 [I 09:26:38.967 NotebookApp] Serving notebooks from local directory: /usr/local/lib/python3.5/dist-packages
@@ -128,14 +128,3 @@ IRkernel::installspec()
 * to open a bash window
    * within cmder, press control-T.  From the "startup command" menu, choose `{WSL::bash}` or `{bash::ubuntu}`
    * click the Start button
-   
-## Confirm installations
-* Are you able to open identify and open terminal on your computer? Y/N
-* Does a browser automatically open to a Jupyter Notebook page showing your files? Y/N </br>
-Type `jupyter notebook --version` in your terminal to confirm you have *v6.0.3* installed
-* In your Jupyter notebook, are you able to initiate a new Python3 script? Y/N</br>
-Type `python --version` in your terminal to confirm you have *v3.8.3* installed
-* In your Jupyter notebook, are you able to initiate a new R script? Y/N</br>
-Type `R --version` in your terminal to confirm you have *v4.0.2* installed
-* Did you make a Github account in the instance you don't already have one? Y/N <br>
-If not, follow the instructions [here](https://www.wikihow.com/Create-an-Account-on-GitHub) don't get caught up in the details after, we'll be covering that :)

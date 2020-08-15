@@ -5,13 +5,13 @@ Course materials from previous years are available [here](https://github.com/SuL
 Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) and Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)) </br>
 Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Yolanda-HT)), Karthik Gangavarapu ([@gkarthik](https://github.com/gkarthik)), Shang-Fu Chen ([@ShaunFChen](https://github.com/ShaunFChen)) </br> 
 
-This course is available in [2] parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
-* Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks (1 credit) </br>
+This course is available in [2] parts and operates under the Computational Biology & Bioinformatics (CBB) curriculum track: </br>
+* Unit A:    STBIO 400 - Fundamentals of Scientific Computing (FSC), 4 weeks (1 credit) </br>
 1. Learn and utilize the Bash (Unix shell) for file manipulation and navigation of the file system </br>
 2. Learn and utilize R code to perform exploratory data analysis of data in files </br>
 3. Learn and utilize Jupyter Notebook for R code </br>
 4. Learn and utilize Git and GitHub for code versioning (tracking changes of source code) </br>
-* Units B-C: Applied Bioinformatics and Computational Biology (ABCB), 8 weeks (2 credits) </br>
+* Units B-C: STBIO 440 - Applied Bioinformatics and Computational Biology (ABCB), 8 weeks (2 credits) </br>
 1. Learn the fundamentals of RNA-Seq, and its application in the larger biological research schema. </br>
 2. Application of R in analyses of RNA-Seq data, from raw data to publishable statistics and figures. </br>
 3. Practice and present on learned R skillset through published data via Capstone project. </br>
@@ -25,16 +25,16 @@ The reasoning for this internal breakdown of the course is to give individuals a
 * A Windows 10 or MacOS laptop (inform instructors if you need access to one of these)
 * Software installation prior to arrival: </br>
 Command line (for Unix shell), R, and Jupyter Notebook (using Anaconda, includes Python 3) [here](Configuration.md) 
-* Expectations: Individuals following this course either on their own or for credit should conduct professional and considerate behavior, likewise for TAs and Instructors. Individuals can typically anticipate feedback within a 48-hour time period during typical business hours.
+* Expectations: Individuals following this course either on their own or for credit should conduct professional and considerate behavior, likewise for TAs and Instructors. If you see something, say something. Individuals can typically anticipate feedback within a 48-hour time period during typical business hours. 
 
 ## Schedule at a Glance
 
 Each week consists of two 90-minute classes starting at 8:15 AM PST and ending at 9:45 AM PST from Sep 8th through Dec 10th, paired with one homework assignment (per week, weeks 1-9). Within each class are two 45-minute sessions comprising of ~15-min lectures and ~30-min hands-on exercises with a brief recap at the end of the 90-minute period. </br> 
 * Unit A (4 wks): </br> 
 Fundamentals of Scientific Computing (FSC), or STBIO 400
-  * Week 1: Course Introduction + Bash Basics
-  * Week 2: Introduction to R + Jupyter Notebook 
-  * Week 3: File Manipulation and Pipes + Loops 
+  * Week 1: Course Introduction + Bash Basics + Jupyter Notebook
+  * Week 2: File Manipulation and Pipes + Loops 
+  * Week 3: Introduction to R
   * Week 4: Version Control with Git + Plotting Publication-Ready Figures
 * Unit B (5 wks): </br>
 Understanding and Exploration RNA-Seq, or STBIO 440i

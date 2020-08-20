@@ -21,7 +21,7 @@ The reasoning for this internal breakdown of the course is to give individuals a
 
 ## Prerequisites
 
-* An enthusiasm for learning, at whatever level of exprience you may or may not be
+* An enthusiasm for learning, at whatever level of experience you may or may not be
 * A Windows 10 or MacOS laptop (inform instructors if you need access to one of these)
 * Software installation prior to arrival: </br>
 Command line (for Unix shell), R, and Jupyter Notebook (using Anaconda, includes Python 3) [here](Configuration.md) 

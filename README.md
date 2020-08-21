@@ -23,19 +23,20 @@ The reasoning for this internal breakdown of the course is to give individuals a
 
 * An enthusiasm for learning, at whatever level of experience you may or may not be
 * A Windows 10 or MacOS laptop (inform instructors if you need access to one of these)
-* Software installation prior to arrival: </br>
+* Software installation prior to arrival (by Sep 4th @ 5 PM PST): </br>
 Command line (for Unix shell), R, and Jupyter Notebook (using Anaconda, includes Python 3) [here](Configuration.md) 
 * Expectations: Individuals following this course either on their own or for credit should conduct professional and considerate behavior, likewise for TAs and Instructors. Individuals can typically anticipate feedback within a 48-hour time period during typical business hours.
 
 ## Schedule at a Glance
 
-Each week consists of two 90-minute classes starting at 8:15 AM PST and ending at 9:45 AM PST from Sep 8th through Dec 10th, paired with one homework assignment (per week, weeks 1-9). Within each class are two 45-minute sessions comprising of ~15-min lectures and ~30-min hands-on exercises with a brief recap at the end of the 90-minute period. </br> 
+Each week consists of two 90-minute classes starting at 8:15 AM PST and ending at 9:45 AM PST from Sep 8th through Dec 10th, paired with one homework assignment (per week, weeks 1-9, 8 assignments in total). Within each class are two 45-minute sessions comprising of ~15-min lectures and ~30-min hands-on exercises with a brief recap at the end of the 90-minute period. </br> 
 * Unit A (4 wks): </br> 
 Fundamentals of Scientific Computing (FSC), or STBIO 400
-  * Week 1: Course Introduction + Bash Basics
-  * Week 2: Introduction to R + Jupyter Notebook 
-  * Week 3: File Manipulation and Pipes + Loops 
-  * Week 4: Version Control with Git + Plotting Publication-Ready Figures
+  * Week 1: Course Introduction + Jupyter Notebook + Bash Basics  
+  * Week 2: Bash in-depth + Git + HPC 
+  * Week 3: Intro to R 
+  * Week 4: Data Analysis and Plotting in R 
+--
 * Unit B (5 wks): </br>
 Understanding and Exploration RNA-Seq, or STBIO 440i
   * Week 5: Continutation of R
@@ -52,20 +53,19 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 ## Course Materials
 
 ### Unit A: Bash, R, Jupyter and Git
-* A.1a (Sep 8): Introduction to the course, [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing) and pre-survey
-* A.1b (Sep 10): Bash basics, [slides](https://docs.google.com/presentation/d/1cjYM4cq7nQxLqPT0840vcCYzDGUvpBtMaUNLRv6jrWU/edit?usp=sharing) and HW 1
-  * Bash handout 1 [notebook](Module-1_bash-jupyter-git/week1-1_bash.md)
-  * Bash handout 2 [notebook](Module-1_bash-jupyter-git/week1-2_bash.md)
-  * Bash handout 3 [notebook](Module-1_bash-jupyter-git/week2-1_bash.md)
-* A.2a (Sep 15): Jupyter basics [slides](https://docs.google.com/presentation/d/1uSNAH_kLjUuNCB38JPH1dZNcPRGB4xTnRw7s6sLZSQc) and [notebook](Module-1_bash-jupyter-git/1.3_jupyter-basics.ipynb)
+* A.1a (Sep 8): Intro and Bash Basics, [slides](https://docs.google.com/presentation/d/1cjYM4cq7nQxLqPT0840vcCYzDGUvpBtMaUNLRv6jrWU/edit?usp=sharing) and HW 1
+* A.1b (Sep 10): Bash cnt'd, [slides](https://docs.google.com/presentation/d/12mHX_9_4X_49OO0mjyKCPKdoISATsVtKjPIn82Afcbg/edit?usp=sharing) 
+* A.2a (Sep 15): Bash in-depth [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing) and HW 2
   * HW 1 Due @ 8 AM PST
-* A.2b (Sep 17): File manipulation [slides](https://docs.google.com/presentation/d/1v99KZHKdKDSsS3D3gerX_NpfoKEm6eO3a5euqxbZ0UA) and [notebook](Module-1_bash-jupyter-git/1.4_working-with-files.ipynb) 
-* A.3a (Sep 22): Pipes [slides](https://docs.google.com/presentation/d/1X88Zjiyo7LfJVVAKhvJKNKEsJMLgkPYQtCXHzkWg3uE) and [notebook](Module-1_bash-jupyter-git/1.5_redirection-and-pipes.ipynb)
+* A.2b (Sep 17): Loops, Git, and HPC [slides](https://docs.google.com/presentation/d/16a_K8RNdvgDlTHZcZd-k826Y2EyAseFyYh3kP8SvdVo/edit?usp=sharing) 
+* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing) and HW 3
   * HW 2 Due @ 8 AM PST
-* A.3b (Sep 24): Programming in awk [slides](https://docs.google.com/presentation/d/1ejePOkEU7FVSqXUPtpM89neLXP7nR24R9Cb24QSyeqw) and [notebook](Module-1_bash-jupyter-git/1.6_awk.ipynb)
-* A.4a (Sep 29): Git to [retrieve your homework](Module-1_bash-jupyter-git/git_reset_local_repo.ipynb), [slides](https://drive.google.com/open?id=11QUQRnKRmCQukB0pL82x9Kf7x5zyjEHe), and [notebook](Module-1_bash-jupyter-git/1.7_for_loop_and_string_replacement.ipynb)
+* A.3b (Sep 24): R Objects and Operations [slides](https://docs.google.com/presentation/d/1Lg7rBrtMu2vYGLRNsaIexD1zmF8NfnSZhnNXVZCJ6pQ/edit?usp=sharing) 
+* A.4a (Sep 29): Data Analysis and Function in R [slides](https://docs.google.com/presentation/d/1KP9Lt0zy_9OE8puUY4AhYMl1F4pgtKeDbU19aK43Xgo/edit?usp=sharing) 
   * HW 3 Due @ 8 AM PST
-* A.4b (Oct 1): Loops slides and [notebook](Module-1_bash-jupyter-git/1.8_find_git_stringreplacement_questions.ipynb)
+* A.4b (Oct 1): Plotting in R [slides](https://docs.google.com/presentation/d/1cRHx9g4CqMOBzItsAWl1E7b2et75LauO0S5LG5_i428/edit?usp=sharing) 
+
+---
 
 ### Unit B: Exploration of RNA-Seq via Utilizing R
 R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
@@ -91,6 +91,7 @@ R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
 * C.11a: Invited talks on applied bioinformatics research and career journeys
   * Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - microbiomes, Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - immunology, Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - predictive modeling, Dr. Sally Chang - non-model organisms and genomics
 * C.11b: Panel
+  * Daniel Murin, Gogce Crynen, JC Ducom, Pabalu Karunadharma, and Padmaja Natarajan 
 * C.12 a(Dec 1) - b (Dec 3): Presentations
   * cnt'd Dec 8 and Dec 10 (if necessary)
 

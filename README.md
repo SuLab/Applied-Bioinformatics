@@ -91,7 +91,7 @@ R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
 * C.11a: Invited talks on applied bioinformatics research and career journeys
   * Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - microbiomes, Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - immunology, Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - predictive modeling, Dr. Sally Chang - non-model organisms and genomics
 * C.11b: Panel
-  * Daniel Murin, Gogce Crynen, JC Ducom, Pabalu Karunadharma, and Padmaja Natarajan 
+  * Dr. Daniel Murin (CA) - Postdoctoral Associate / Graduate Alumn, Dr. Gogce Crynen (FL) - Bioinformatics Analyst , Dr. Jean-Christophe Ducom (CA) - HPC Director / IT, Dr. Pabalu Karunadharma (FL) - Genomics Core Director, and Dr. Padmaja Natarajan (CA) - Bioinformatics Analyst 
 * C.12 a(Dec 1) - b (Dec 3): Presentations
   * cnt'd Dec 8 and Dec 10 (if necessary)
 

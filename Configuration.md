@@ -1,6 +1,8 @@
-This file contains instructions for how to install R and jupyter on your computer. Instructions are provided for Windows 10 and MacOS.  If you do not have access to a Windows 10 or MacOS computer, contact the course instructors. 
+# Configuration: Complete the following one week before class ~1 hr
+#### Contact Instructors and TAs for any obstacles encountered -- do this via course Slack channel access > email
+This file contains instructions for how to install terminal (for command line), jupyter notebook (as part of anaconda, which includes python 3), and R (as well as the R kernel for jupyter notebook) on your personal computer. Instructions are provided based on MacOS or Windows 10.  If you do not have access to a MacOS or Windows 10 computer, contact the course instructors. 
 
-## Mac
+## Mac OS *note to scroll to bottom after completing steps 1-5 ['Confirm installations']
 
 ### 1. install python3 and jupyter using anaconda
 * follow installation instructions for python3.6 at https://www.anaconda.com/download#macos <br><br>
@@ -135,3 +137,14 @@ IRkernel::installspec()
 * to open a bash window
    * within cmder, press control-T.  From the "startup command" menu, choose `{WSL::bash}` or `{bash::ubuntu}`
    * click the Start button
+  
+## Confirm installations
+* Are you able to open identify and open terminal on your computer? Y/N
+* Does a browser automatically open to a Jupyter Notebook page showing your files? Y/N </br>
+Type `jupyter notebook --version` in your terminal to confirm you have *v6.0.3* installed
+* In your Jupyter notebook, are you able to initiate a new Python3 script? Y/N</br>
+Type `python --version` in your terminal to confirm you have *v3.8.3* installed
+* In your Jupyter notebook, are you able to initiate a new R script? Y/N</br>
+Type `R --version` in your terminal to confirm you have *v4.0.2* installed
+* Did you make a Github account in the instance you don't already have one? Y/N <br>
+If not, follow the instructions [here](https://www.wikihow.com/Create-an-Account-on-GitHub) don't get caught up in the details after, we'll be covering that :)

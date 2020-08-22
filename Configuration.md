@@ -3,10 +3,17 @@ This file contains instructions for how to install R and jupyter on your compute
 ## Mac
 
 ### 1. install python3 and jupyter using anaconda
-* follow installation instructions for python3.6 at https://www.anaconda.com/download#macos .
+* follow installation instructions for python3.6 at https://www.anaconda.com/download#macos <br>
+*Note: You can install jupyter to a pre-existing conda environment via
+```
+jupyterPath <- "/miniconda/envs/env_name/bin"
+jupyterPath2 <- paste(Sys.getenv("HOME")
+"/miniconda/envs/env_name/bin",sep="")
+```
+then continue with the rest of the instructions below
 
 ### 2. install R
-* download and install R-3.5.1.pkg from https://cran.r-project.org/bin/macosx/
+* download and install R-4.0.2.pkg from https://cran.r-project.org/bin/macosx/
 
 ### 3. install xcode-select
 * open a terminal and run `xcode-select --install`

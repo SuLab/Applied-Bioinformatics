@@ -147,4 +147,5 @@ Type `python --version` in your terminal to confirm you have *v3.8.3* installed
 * In your Jupyter notebook, are you able to initiate a new R script? Y/N</br>
 Type `R --version` in your terminal to confirm you have *v4.0.2* installed
 * Did you make a Github account in the instance you don't already have one? Y/N <br>
-If not, follow the instructions [here](https://www.wikihow.com/Create-an-Account-on-GitHub) don't get caught up in the details after, we'll be covering that :)
+If not, follow the instructions [here](https://www.wikihow.com/Create-an-Account-on-GitHub) don't get caught up in the details after, we'll be covering that :)<br>
+* Do you have access to our TSRI #abcb-2020 Slack channel to ask us troubleshooting questions on any of the above? Y/N

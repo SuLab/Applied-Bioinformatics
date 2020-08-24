@@ -35,7 +35,7 @@ Fundamentals of Scientific Computing (FSC), or STBIO 400
   * Week 1: Course Introduction + Jupyter Notebook + Bash Basics  
   * Week 2: Bash in-depth + Git + HPC 
   * Week 3: Intro to R 
-  * Week 4: Data Analysis and Plotting in R 
+  * Week 4: Data Analysis and Plotting in R <br>
 --
 * Unit B (5 wks): </br>
 Understanding and Exploration RNA-Seq, or STBIO 440i
@@ -53,12 +53,12 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 ## Course Materials
 
 ### Unit A: Bash, R, Jupyter and Git
-* A.1a (Sep 8): Intro and Bash Basics, [slides](https://docs.google.com/presentation/d/1cjYM4cq7nQxLqPT0840vcCYzDGUvpBtMaUNLRv6jrWU/edit?usp=sharing) and HW 1
+* A.1a (Sep 8): Intro and Bash Basics, [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing) and [HW 1](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW1_Bash-Basics.ipynb)
 * A.1b (Sep 10): Bash cnt'd, [slides](https://docs.google.com/presentation/d/12mHX_9_4X_49OO0mjyKCPKdoISATsVtKjPIn82Afcbg/edit?usp=sharing) 
-* A.2a (Sep 15): Bash in-depth [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing) and HW 2
+* A.2a (Sep 15): Bash in-depth [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing) and [HW 2](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW2_Scripting%2BJobs_Bash.ipynb)
   * HW 1 Due @ 8 AM PST
 * A.2b (Sep 17): Loops, Git, and HPC [slides](https://docs.google.com/presentation/d/16a_K8RNdvgDlTHZcZd-k826Y2EyAseFyYh3kP8SvdVo/edit?usp=sharing) 
-* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing) and HW 3
+* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing) and [HW 3](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW3_Introduction-to-R.ipynb)
   * HW 2 Due @ 8 AM PST
 * A.3b (Sep 24): R Objects and Operations [slides](https://docs.google.com/presentation/d/1Lg7rBrtMu2vYGLRNsaIexD1zmF8NfnSZhnNXVZCJ6pQ/edit?usp=sharing) 
 * A.4a (Sep 29): Data Analysis and Function in R [slides](https://docs.google.com/presentation/d/1KP9Lt0zy_9OE8puUY4AhYMl1F4pgtKeDbU19aK43Xgo/edit?usp=sharing) 

@@ -89,7 +89,7 @@ R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
 ### Unit C: Capstone Project, and Overview of Pipelines
 * C.10 a(Nov 10) - b(Nov 12): Workshop
 * C.11a: Invited talks on applied bioinformatics research and career journeys
-  * Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - microbiomes, Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - immunology, Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - predictive modeling, Dr. Sally Chang - non-model organisms and genomics
+  * Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - microbiomes, Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - immunology, Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - predictive modeling, Dr. Sally Chang ([@esallychang](https://github.com/esallychang)) - non-model organisms and genomics
 * C.11b: Panel
   * Dr. Daniel Murin (CA) - Postdoctoral Associate / Graduate Alumn, Dr. Gogce Crynen (FL) - Bioinformatics Analyst , Dr. Jean-Christophe Ducom (CA) - HPC Director / IT, Dr. Pabalu Karunadharma (FL) - Genomics Core Director, and Dr. Padmaja Natarajan (CA) - Bioinformatics Analyst 
 * C.12 a(Dec 1) - b (Dec 3): Presentations

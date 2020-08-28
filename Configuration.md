@@ -60,7 +60,7 @@ $ jupyter notebook
 * jupyter should have automatically started in a browser. You should see something like this:
 ![Jupyter root view](https://user-images.githubusercontent.com/2635409/42073862-da786178-7b1d-11e8-93a6-ccab73c21b1e.png)
 
-* confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!
+* confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!<br>
 **Note** If you encounter an error relating to 'installspec()', try [the following site](https://medium.com/@kyleake/how-to-install-r-in-jupyter-with-irkernel-in-3-steps-917519326e41)
 
 ![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)

@@ -33,17 +33,16 @@ Each week consists of two 90-minute classes starting at 8:15 AM PST and ending a
 * Unit A (4 wks): </br> 
 Fundamentals of Scientific Computing (FSC), or STBIO 400
   * Week 1: Course Introduction + Jupyter Notebook + Bash Basics  
-  * Week 2: Bash in-depth + Git + HPC 
+  * Week 2: Bash in-depth 
   * Week 3: Intro to R 
   * Week 4: Data Analysis and Plotting in R <br>
---
 * Unit B (5 wks): </br>
 Understanding and Exploration RNA-Seq, or STBIO 440i
-  * Week 5: Continutation of R
-  * Week 6: Introduction to RNA-Seq + Raw Data Ouput
-  * Week 7: Introduction to Capstone Project + RNA-Seq Data Pre-processing
-  * Week 8: RNA-Seq Data Pre-processing cnt'd + RNA-Seq Data Post-processing
-  * Week 9: RNA-Seq Data Post-processing cnt'd + DESeq2
+  * Week 5: Advanced R and Pertinence to RNA-Seq, Introduction to Capstone Project 
+  * Week 6: RNA-Seq Raw Data Ouput + RNA-Seq Data Pre-processing
+  * Week 7: RNA-Seq Data Pre-processing cnt'd 
+  * Week 8: RNA-Seq Data Post-processing + DESeq2
+  * Week 9: Special Topics: R Packages of interest, Git (version Control), and the HPC
 * Unit C (3 wks): </br>
 Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or STBIO 440ii
   * Week 10: Capstone Project Workshop
@@ -52,46 +51,43 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 
 ## Course Materials
 
-### Unit A: Bash, R, Jupyter and Git
+### Unit A: Jupyter, Bash, and R
 * A.1a (Sep 8): Intro and Bash Basics, [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing) and [HW 1](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW1_Bash-Basics.ipynb)
 * A.1b (Sep 10): Bash cnt'd, [slides](https://docs.google.com/presentation/d/12mHX_9_4X_49OO0mjyKCPKdoISATsVtKjPIn82Afcbg/edit?usp=sharing) 
-* A.2a (Sep 15): Bash in-depth [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing) and [HW 2](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW2_Scripting%2BJobs_Bash.ipynb)
+* A.2a (Sep 15): Bash in-depth, [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing) and [HW 2](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW2_Scripting%2BJobs_Bash.ipynb)
   * HW 1 Due @ 8 AM PST
-* A.2b (Sep 17): Loops, Git, and HPC [slides](https://docs.google.com/presentation/d/16a_K8RNdvgDlTHZcZd-k826Y2EyAseFyYh3kP8SvdVo/edit?usp=sharing) 
-* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing) and [HW 3](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW3_Introduction-to-R.ipynb)
+* A.2b (Sep 17): Loops, [slides](https://docs.google.com/presentation/d/16a_K8RNdvgDlTHZcZd-k826Y2EyAseFyYh3kP8SvdVo/edit?usp=sharing) 
+* A.3a (Sep 22): Introduction to R, [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing) and [HW 3](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW3_Introduction-to-R.ipynb)
   * HW 2 Due @ 8 AM PST
-* A.3b (Sep 24): R Objects and Operations [slides](https://docs.google.com/presentation/d/1Lg7rBrtMu2vYGLRNsaIexD1zmF8NfnSZhnNXVZCJ6pQ/edit?usp=sharing) 
-* A.4a (Sep 29): Data Analysis and Function in R [slides](https://docs.google.com/presentation/d/1KP9Lt0zy_9OE8puUY4AhYMl1F4pgtKeDbU19aK43Xgo/edit?usp=sharing) 
+* A.3b (Sep 24): R Objects and Operations, [slides](https://docs.google.com/presentation/d/1Lg7rBrtMu2vYGLRNsaIexD1zmF8NfnSZhnNXVZCJ6pQ/edit?usp=sharing) 
+* A.4a (Sep 29): Data Analysis and Function in R, [slides](https://docs.google.com/presentation/d/1KP9Lt0zy_9OE8puUY4AhYMl1F4pgtKeDbU19aK43Xgo/edit?usp=sharing) 
   * HW 3 Due @ 8 AM PST
-* A.4b (Oct 1): Plotting in R [slides](https://docs.google.com/presentation/d/1cRHx9g4CqMOBzItsAWl1E7b2et75LauO0S5LG5_i428/edit?usp=sharing) 
-
----
+* A.4b (Oct 1): Plotting in R, [slides](https://docs.google.com/presentation/d/1cRHx9g4CqMOBzItsAWl1E7b2et75LauO0S5LG5_i428/edit?usp=sharing) 
 
 ### Unit B: Exploration of RNA-Seq via Utilizing R
 R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
-* B.5a (Oct 6): Overview of Unit A
-  * HW 1 Due @ 8 AM PST
-* B.5b (Oct 8): Introduction to R [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-1.pptx) and [notebook](Unit1-module2-R/R.intro.1.ipynb) with [sample answer](Unit1-module2-R/R.intro.1.practice2.1.ipynb)
-* B.6a (Oct 13): R operations [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-2.pptx) and [notebook](Unit1-module2-R/R.intro.2.ipynb) with sample answers [2](Unit1-module2-R/R.intro.1.practice2.2.ipynb) and [3](Unit1-module2-R/R.intro.1.practice2.3.ipynb) 
-  * HW 2 Due @ 8 AM PST
-* B.6b (Oct 15): R review [slides](https://github.com/SuLab/Applied-Bioinformatics/raw/master/Unit1-module2-R/R-3.pptx) and sample answer [4](Unit1-module2-R/R.intro.1.practice2.4.ipynb) with [extension info on loops](https://docs.google.com/presentation/d/1y0Yoyvejc8mp3MZWKPAw_u4sj5-wN4CSAi2U30IkWAs/)
-* B.7a (Oct 20): Data visualization in R [slides](Unit1-module2-R/2.5_plotting.pdf) and [notebook](Unit1-module2-R/2.5_plotting_1.ipynb)
-  * HW 3 Due @ 8 AM PST
-* B.7b (Oct 22): Overview of RNA-Seq [slides](https://docs.google.com/presentation/d/1UJ_aLFQuwR_ZByDbpDjaaqGBhVZwA_8VHhy0RqWufN0/edit?usp=sharing)
-* B.8a (Oct 27): Introduction to RNA-Seq data [slides](https://drive.google.com/open?id=1HMJQ6KhuneSVr7Obx8SBOTbda8BSXlmF) and [notebook](Unit2-RNAseq/3.1_raw-rnaseq-data.ipynb) with [sample answer](Unit2-RNAseq/3.1_exercise_solutions.ipynb) 
+* B.5a (Oct 6): Advanced plotting in R 
   * HW 4 Due @ 8 AM PST
-* B.8b (Oct 29): Pre-processing SAM files [slides](https://drive.google.com/open?id=1QdEsymay8bQrqoIUZE4ofKfMEqgBs1xm) and [notebook](Unit2-RNAseq/3.2_sam_and_htseq.ipynb) with sample answer [2](Unit2-RNAseq/3.2_exercise_solutions.ipynb)
-* B.9a (Nov 3): Expression count analysis [slides](https://drive.google.com/open?id=1B7TiySFOo92vmwzr9YNwjdgxnhiDEMlW) and [notebook](Unit2-RNAseq/3.3_counts-based-pipeline.ipynb)
+* B.5b (Oct 8): R and DESeq2 in relation to RNA-Seq, Introduction to Capstone 
+* B.6a (Oct 13): Introduction to RNA-Seq 
   * HW 5 Due @ 8 AM PST
-* B.9b (Nov 5): Post-processing data for DESeq2 [slides](https://drive.google.com/open?id=1lDPbBNhdCZBajNED64Pcrr4foG0Zspqq) and notebooks [1](Unit2-RNAseq/3.4_DESeq2_import_data.ipynb) and [2](Unit2-RNAseq/3.5_DESeq2_expression_analysis.ipynb)
-  * DeSeq2 continued [slides](https://drive.google.com/open?id=1deq5uIjmpa3G1zfb9PZqE1sT38uBsxGe) and [notebook](Unit2-RNAseq/3.6_DESeq2_differential_expression_analysis.ipynb), and more on enrichment via [slides](https://drive.google.com/file/d/1SE0LZBVgkB52l9SU0XHpmcvO6RyJMMzW/view?usp=sharing)
+* B.6b (Oct 15): Raw RNA-Seq Data Ouput
+* B.7a (Oct 20): RNA-Seq Data Pre-Processing 
+  * HW 6 Due @ 8 AM PST
+* B.7b (Oct 22): RNA-Seq Data Pre-Processing cnt'd
+* B.8a (Oct 27): RNA-Seq Post-Processing
+  * HW 7 Due @ 8 AM PST
+* B.8b (Oct 29): RNA-Seq Post-Processing and DESeq2 Analysis
+* B.9a (Nov 3): R Packages of interest 
+  * HW 8 Due @ 8 AM PST
+* B.9b (Nov 5): Git and utilizing the TSRI HPC
 
 ### Unit C: Capstone Project, and Overview of Pipelines
-* C.10 a(Nov 10) - b(Nov 12): Workshop
+* C.10 a(Nov 10) - b(Nov 12): Workshop Time
 * C.11a: Invited talks on applied bioinformatics research and career journeys
   * Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - Amplicon Sequencing, Human Microbiome, Microbial Ecology; Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - Translational, Immunology, Immunotherapy; Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - Genomic Variation, Deep Learning, Optimization; Dr. Sally Chang ([@esallychang](https://github.com/esallychang)) - Non-Model Organisms, Comparative Genomics, Genomics of Disease
 * C.11b: Panel
-  * Dr. Daniel Murin (CA) - Postdoctoral Associate / Graduate Alumn, Dr. Gogce Crynen (FL) - Bioinformatics Analyst , Dr. Jean-Christophe Ducom (CA) - HPC Director / IT, Dr. Pabalu Karunadharma (FL) - Genomics Core Director, and Dr. Padmaja Natarajan (CA) - Bioinformatics Analyst 
+  * [Dr. Daniel Murin](http://www.alumni.scripps.edu/s/1714/16/interior.aspx?sid=1714&gid=2&pgid=252&cid=1621&ecid=1621&crid=0&calpgid=61&calcid=1230) (CA) - Postdoctoral Associate / Graduate Alumn, [Dr. Gogce Crynen](https://www.scripps.edu/science-and-medicine/cores-and-services/center-for-computational-biology/index.html?tab-4-contact=1) (FL) - Bioinformatics Analyst , [Dr. Jean-Christophe Ducom](https://www.scripps.edu/newsandviews/e_20110801/ducom.html) (CA) - HPC Director / IT, [Dr. Pabalu Karunadharma](https://www.scripps.edu/science-and-medicine/cores-and-services/genomics/index.html) (FL) - Genomics Core Director, and [Dr. Padmaja Natarajan](https://www.scripps.edu/science-and-medicine/cores-and-services/center-for-computational-biology/index.html?tab-4-contact=1) (CA) - Bioinformatics Analyst 
 * C.12 a(Dec 1) - b (Dec 3): Presentations
   * cnt'd Dec 8 and Dec 10 (if necessary)
 

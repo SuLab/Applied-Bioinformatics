@@ -52,33 +52,33 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 ## Course Materials
 
 ### Unit A: Jupyter, Bash, and R
-* A.1a (Sep 8): Intro and Bash Basics [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing) and [HW 1](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW1-Bash-Basics.ipynb)
+* A.1a (Sep 8): Intro and Bash Basics [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing), HW1 (jupyterhub)
 * A.1b (Sep 10): Bash cnt'd [slides](https://docs.google.com/presentation/d/12mHX_9_4X_49OO0mjyKCPKdoISATsVtKjPIn82Afcbg/edit?usp=sharing) 
-* A.2a (Sep 15): Bash in-depth [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing), [HW1 Review](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW1-Key_Bash-Basics.ipynb) and [HW 2](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW2-Scripting%2BJobs_Bash.ipynb)
-  * HW 1 Due @ 8 AM PST
+* A.2a (Sep 15): Bash in-depth [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing), [HW1 Review](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW1-Key_Bash-Basics.ipynb) and HW2
+  * HW1 Due @ 8 AM PST
 * A.2b (Sep 17): Loops [slides](https://docs.google.com/presentation/d/16a_K8RNdvgDlTHZcZd-k826Y2EyAseFyYh3kP8SvdVo/edit?usp=sharing) 
-* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing), HW2 Review and [HW 3](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW3_Introduction-to-R.ipynb)
-  * HW 2 Due @ 8 AM PST
+* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing), HW2 Review and HW3
+  * HW2 Due @ 8 AM PST
 * A.3b (Sep 24): R Objects and Operations [slides](https://docs.google.com/presentation/d/1Lg7rBrtMu2vYGLRNsaIexD1zmF8NfnSZhnNXVZCJ6pQ/edit?usp=sharing) 
-* A.4a (Sep 29): Data Analysis and Function in R [slides](https://docs.google.com/presentation/d/1KP9Lt0zy_9OE8puUY4AhYMl1F4pgtKeDbU19aK43Xgo/edit?usp=sharing) HW3 Review and HW4 
-  * HW 3 Due @ 8 AM PST
+* A.4a (Sep 29): Data Analysis and Function in R [slides](https://docs.google.com/presentation/d/1KP9Lt0zy_9OE8puUY4AhYMl1F4pgtKeDbU19aK43Xgo/edit?usp=sharing), HW3 Review and HW4 
+  * HW3 Due @ 8 AM PST
 * A.4b (Oct 1): Plotting in R, [slides](https://docs.google.com/presentation/d/1cRHx9g4CqMOBzItsAWl1E7b2et75LauO0S5LG5_i428/edit?usp=sharing) 
 
 ### Unit B: Exploration of RNA-Seq via Utilizing R
 R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
-* B.5a (Oct 6): Advanced plotting in R 
+* B.5a (Oct 6): Advanced plotting in R, HW4 Review and HW5  
   * HW 4 Due @ 8 AM PST
 * B.5b (Oct 8): R and DESeq2 in relation to RNA-Seq, Introduction to Capstone 
-* B.6a (Oct 13): Introduction to RNA-Seq 
+* B.6a (Oct 13): Introduction to RNA-Seq, HW5 Review and HW6 
   * HW 5 Due @ 8 AM PST
 * B.6b (Oct 15): Raw RNA-Seq Data Ouput
-* B.7a (Oct 20): RNA-Seq Data Pre-Processing 
+* B.7a (Oct 20): RNA-Seq Data Pre-Processing, HW6 Review and HW7  
   * HW 6 Due @ 8 AM PST
 * B.7b (Oct 22): RNA-Seq Data Pre-Processing cnt'd
-* B.8a (Oct 27): RNA-Seq Post-Processing
+* B.8a (Oct 27): RNA-Seq Post-Processing, HW7 Review and HW8 
   * HW 7 Due @ 8 AM PST
 * B.8b (Oct 29): RNA-Seq Post-Processing and DESeq2 Analysis
-* B.9a (Nov 3): R Packages of interest 
+* B.9a (Nov 3): R Packages of interest, HW 8 Review 
   * HW 8 Due @ 8 AM PST
 * B.9b (Nov 5): Git and utilizing the TSRI HPC
 

@@ -57,7 +57,7 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 * A.2a (Sep 15): Bash in-depth [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing), [HW1 Review](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW1-Key_Bash-Basics.ipynb) and HW2
   * HW1 Due @ 8 AM PST
 * A.2b (Sep 17): Loops [slides](https://docs.google.com/presentation/d/16a_K8RNdvgDlTHZcZd-k826Y2EyAseFyYh3kP8SvdVo/edit?usp=sharing) 
-* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing), HW2 Review and HW3
+* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing), [HW2 Review](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW2-Key_Scripting%2BJobs_Bash.ipynb) and HW3
   * HW2 Due @ 8 AM PST
 * A.3b (Sep 24): R Objects and Operations [slides](https://docs.google.com/presentation/d/1Lg7rBrtMu2vYGLRNsaIexD1zmF8NfnSZhnNXVZCJ6pQ/edit?usp=sharing) 
 * A.4a (Sep 29): Data Analysis and Function in R [slides](https://docs.google.com/presentation/d/1KP9Lt0zy_9OE8puUY4AhYMl1F4pgtKeDbU19aK43Xgo/edit?usp=sharing), HW3 Review and HW4 

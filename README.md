@@ -69,9 +69,9 @@ R Packages to be used for RNA-Seq Analyses [here](Configuration_RNAseq.md)
 * B.5a (Oct 6): Advanced plotting in R [slides](https://docs.google.com/presentation/d/11CPVDuRYg2OCzWumdRDXszmNItGfxO2SP-7lrkorNzI/edit?usp=sharing), HW4 Review and HW5  
   * HW 4 Due @ 8 AM PST
 * B.5b (Oct 8): R and DESeq2 in relation to RNA-Seq [slides](https://docs.google.com/presentation/d/1tquX_TV2ca_y0FFITbdmCRmoOl1LhZuem_kpUFEwUhc/edit?usp=sharing), Introduction to Capstone 
-* B.6a (Oct 13): Introduction to RNA-Seq [slides](https://docs.google.com/presentation/d/1ls_tBOG-gfZEL03h8Q6rSQFOQnVOIVoooHTl4WSdXHQ/edit?usp=sharing), HW5 Review and HW6 
+* B.6a (Oct 13): Introduction to RNA-Seq and FASTQC [slides](https://docs.google.com/presentation/d/1ls_tBOG-gfZEL03h8Q6rSQFOQnVOIVoooHTl4WSdXHQ/edit?usp=sharing), HW5 Review and HW6 
   * HW 5 Due @ 8 AM PST
-* B.6b (Oct 15): Raw RNA-Seq Data Ouput [slides](https://docs.google.com/presentation/d/1obICQYdoMPcDVwI9w8o3JtKVuiPPLsQgb9h4VBPXaxE/edit?usp=sharing)
+* B.6b (Oct 15): Raw RNA-Seq Data Ouput and Alignment (HISAT2 and SAM) [slides](https://docs.google.com/presentation/d/1obICQYdoMPcDVwI9w8o3JtKVuiPPLsQgb9h4VBPXaxE/edit?usp=sharing)
 * B.7a (Oct 20): RNA-Seq Data Pre-Processing, HW6 Review and HW7  
   * HW 6 Due @ 8 AM PST
 * B.7b (Oct 22): RNA-Seq Data Pre-Processing cnt'd

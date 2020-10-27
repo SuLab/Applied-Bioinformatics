@@ -71,12 +71,12 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 * B.6a (Oct 13): Introduction to RNA-Seq and FASTQC [slides](https://docs.google.com/presentation/d/1ls_tBOG-gfZEL03h8Q6rSQFOQnVOIVoooHTl4WSdXHQ/edit?usp=sharing), HW5 Review and HW6 
   * HW 5 Due @ 8 AM PST
 * B.6b (Oct 15): Raw RNA-Seq Data Ouput and Alignment (HISAT2 and SAM) [slides](https://docs.google.com/presentation/d/1obICQYdoMPcDVwI9w8o3JtKVuiPPLsQgb9h4VBPXaxE/edit?usp=sharing)
-* B.7a (Oct 20): No Class, HW7 RNA-Seq Data Pre-Processing, HW6 Review and HW7  
+* B.7a (Oct 20): CLASS CANCELLED, HW7 RNA-Seq Data Pre-Processing, HW6 Review  
   * HW 6 Due @ 8 AM PST
 * B.7b (Oct 22): RNA-Seq Mapping and Read Counting [slides](https://docs.google.com/presentation/d/11nEc9K3688XQCUesABqdMa6QnuBTaV3kW9sQeAbhLHo/edit?usp=sharing) 
-* B.8a (Oct 27): RNA-Seq Post-Processing, HW7 Review and HW8 
+* B.8a (Oct 27): RNA-Seq Expression Analysis [slides](https://docs.google.com/presentation/d/1Ms0WlCEFFw4596BTnnPEM73_IUVtGHhbt3YL54qoqgI/edit?usp=sharing), HW7 Review and HW8 
   * HW 7 Due @ 8 AM PST
-* B.8b (Oct 29): RNA-Seq Post-Processing and DESeq2 Analysis
+* B.8b (Oct 29): RNA-Seq DESeq2 and Enrichment Analysis [slides](https://docs.google.com/presentation/d/1YaSI5CHgsFjCgz8G1Z9qDIKFMRxqZVPoj4kwzhUA1_4/edit?usp=sharing)
 * B.9a (Nov 3): R Analyses of Interest (PCA and PCoA), HW 8 Review 
   * HW 8 Due @ 8 AM PST
 * B.9b (Nov 5): Git and utilizing the TSRI HPC

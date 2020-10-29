@@ -75,11 +75,11 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
   * HW 6 Due @ 8 AM PST
 * B.7b (Oct 22): RNA-Seq Mapping and Read Counting [slides](https://docs.google.com/presentation/d/11nEc9K3688XQCUesABqdMa6QnuBTaV3kW9sQeAbhLHo/edit?usp=sharing) 
 * B.8a (Oct 27): RNA-Seq Expression Analysis [slides](https://docs.google.com/presentation/d/1Ms0WlCEFFw4596BTnnPEM73_IUVtGHhbt3YL54qoqgI/edit?usp=sharing), HW7 Review and HW8 
-  * HW 7 Due @ 8 AM PST
 * B.8b (Oct 29): RNA-Seq DESeq2 and Enrichment Analysis [slides](https://docs.google.com/presentation/d/1YaSI5CHgsFjCgz8G1Z9qDIKFMRxqZVPoj4kwzhUA1_4/edit?usp=sharing)
-* B.9a (Nov 3): R Analyses of Interest (PCA and PCoA), HW 8 Review 
-  * HW 8 Due @ 8 AM PST
+  * HW 7 Due @ 8 AM PST
+* B.9a (Nov 3): R Analyses of Interest (PCA and PCoA)
 * B.9b (Nov 5): Git and utilizing the TSRI HPC
+  * HW 8 Due @ 8 AM PST
 
 ### Unit C: Capstone Project, and Overview of Pipelines
 * C.10 a(Nov 10) - b(Nov 12): Workshop Time

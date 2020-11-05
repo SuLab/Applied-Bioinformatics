@@ -78,11 +78,11 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 * B.8b (Oct 29): RNA-Seq DESeq2 and Enrichment Analysis [slides](https://docs.google.com/presentation/d/1YaSI5CHgsFjCgz8G1Z9qDIKFMRxqZVPoj4kwzhUA1_4/edit?usp=sharing)
   * HW 7 Due @ 8 AM PST
 * B.9a (Nov 3): R Analyses of Interest (PCA and PCoA) [slides](https://drive.google.com/file/d/1qAgFEE_B5qO7CZ2L2qTV_cH2d5mxmsoA/view?usp=sharing)
-* B.9b (Nov 5): Git and utilizing the TSRI HPC
-  * HW 8 Due @ 8 AM PST
+* B.9b (Nov 5): Git and utilizing the TSRI HPC [slides]() and [associated repository](https://github.com/ShaunFChen/2020_FA_HPC)
 
 ### Unit C: Capstone Project, and Overview of Pipelines
 * C.10 a(Nov 10) - b(Nov 12): Workshop Time
+  * HW 8 Due @ 8 AM PST
 * C.11a: Invited talks on applied bioinformatics research and career journeys
   * Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - Amplicon Sequencing, Human Microbiome, Microbial Ecology; Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - Translational, Immunology, Immunotherapy; Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - Genomic Variation, Deep Learning, Optimization; Dr. Sally Chang ([@esallychang](https://github.com/esallychang)) - Non-Model Organisms, Comparative Genomics, Genomics of Disease
 * C.11b: Panel

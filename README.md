@@ -81,7 +81,7 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 * B.9b (Nov 5): Git and utilizing the TSRI HPC [slides](https://drive.google.com/file/d/1FGEUx3ib6jLUT4T1bMIi2IWrngWfUnQx/view?usp=sharing) and [associated repository](https://github.com/ShaunFChen/2020_FA_HPC)
 
 ### Unit C: Capstone Project, and Overview of Pipelines
-* C.10 a(Nov 10 [slides](https://docs.google.com/presentation/d/1VLdmVfhENcQFrGQHLIZZwXpHsqp4ykd6_cURoMQ98tc/edit?usp=sharing)) - b(Nov 12[slides](https://docs.google.com/presentation/d/1h7mQQ0B94JJheAc3k4qyzmffMdnVLBK0QOqWqHU3-rA/edit?usp=sharing)): Workshop Time
+* C.10 a(Nov 10 [slides](https://docs.google.com/presentation/d/1VLdmVfhENcQFrGQHLIZZwXpHsqp4ykd6_cURoMQ98tc/edit?usp=sharing)) - b(Nov 12 [slides](https://docs.google.com/presentation/d/1h7mQQ0B94JJheAc3k4qyzmffMdnVLBK0QOqWqHU3-rA/edit?usp=sharing)): Workshop Time
   * HW 8 Due Nov 10th @ 8 AM PST
 * C.11a: Invited talks on applied bioinformatics research and career journeys
   * Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - Amplicon Sequencing, Human Microbiome, Microbial Ecology; Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - Translational, Immunology, Immunotherapy; Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - Genomic Variation, Deep Learning, Optimization; Dr. Sally Chang ([@esallychang](https://github.com/esallychang)) - Non-Model Organisms, Comparative Genomics, Genomics of Disease

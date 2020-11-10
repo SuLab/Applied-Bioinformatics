@@ -83,9 +83,9 @@ Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or 
 ### Unit C: Capstone Project, and Overview of Pipelines
 * C.10 a(Nov 10 [slides](https://docs.google.com/presentation/d/1VLdmVfhENcQFrGQHLIZZwXpHsqp4ykd6_cURoMQ98tc/edit?usp=sharing)) - b(Nov 12 [slides](https://docs.google.com/presentation/d/1h7mQQ0B94JJheAc3k4qyzmffMdnVLBK0QOqWqHU3-rA/edit?usp=sharing)): Workshop Time
   * HW 8 Due Nov 10th @ 8 AM PST
-* C.11a: Invited talks on applied bioinformatics research and career journeys
+* C.11a (Nov 17): Invited talks on applied bioinformatics research and career journeys
   * Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - Translational, Immunology, Immunotherapy; Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - Amplicon Sequencing, Human Microbiome, Microbial Ecology; Dr. Sally Chang ([@esallychang](https://github.com/esallychang)) - Non-Model Organisms, Comparative Genomics, Genomics of Disease; Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - Genomic Variation, Deep Learning, Optimization
-* C.11b: Panel
+* C.11b (Nov 19): Panel
   * [Dr. Daniel Murin](http://www.alumni.scripps.edu/s/1714/16/interior.aspx?sid=1714&gid=2&pgid=252&cid=1621&ecid=1621&crid=0&calpgid=61&calcid=1230) (CA) - Postdoctoral Associate / Graduate Alumn, [Dr. Pabalu Karunadharma](https://www.scripps.edu/science-and-medicine/cores-and-services/genomics/index.html) (FL) - Genomics Core Director, [Dr. Gogce Crynen](https://www.scripps.edu/science-and-medicine/cores-and-services/center-for-computational-biology/index.html?tab-4-contact=1) (FL) - Bioinformatics Analyst , [Dr. Padmaja Natarajan](https://www.scripps.edu/science-and-medicine/cores-and-services/center-for-computational-biology/index.html?tab-4-contact=1) (CA) - Bioinformatics Analyst, and [Dr. Jean-Christophe Ducom](https://www.scripps.edu/newsandviews/e_20110801/ducom.html) (CA) - HPC Director / IT 
 * C.12 a(Dec 1) - b (Dec 3): Presentations
   * cnt'd Dec 8 and Dec 10 (if necessary)

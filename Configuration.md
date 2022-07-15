@@ -1,12 +1,21 @@
-This file contains instructions for how to install R and jupyter on your computer. Instructions are provided for Windows 10 and MacOS.  If you do not have access to a Windows 10 or MacOS computer, contact the course instructors. 
+# Configuration: Complete the following one week before class ~1 hr
+#### Contact Instructors and TAs for any obstacles encountered -- do this via course Slack channel access > email
+This file contains instructions for how to install terminal (for command line), jupyter notebook (as part of anaconda, which includes python 3), and R (as well as the R kernel for jupyter notebook) on your personal computer. Instructions are provided based on MacOS or Windows 10.  If you do not have access to a MacOS or Windows 10 computer, contact the course instructors. 
 
-## Mac
+## Mac OS *note to scroll to bottom after completing steps 1-5 ['Confirm installations']
 
 ### 1. install python3 and jupyter using anaconda
-* follow installation instructions for python3.6 at https://www.anaconda.com/download#macos .
+* follow installation instructions for python3.6 at https://www.anaconda.com/download#macos <br><br>
+*Note: You can install jupyter to a pre-existing conda environment via
+```
+jupyterPath <- "/miniconda/envs/env_name/bin"
+jupyterPath2 <- paste(Sys.getenv("HOME")
+"/miniconda/envs/env_name/bin",sep="")
+```
+then continue with the rest of the instructions below
 
 ### 2. install R
-* download and install R-3.5.1.pkg from https://cran.r-project.org/bin/macosx/
+* download and install R-4.0.2.pkg from https://cran.r-project.org/bin/macosx/
 
 ### 3. install xcode-select
 * open a terminal and run `xcode-select --install`
@@ -51,7 +60,8 @@ $ jupyter notebook
 * jupyter should have automatically started in a browser. You should see something like this:
 ![Jupyter root view](https://user-images.githubusercontent.com/2635409/42073862-da786178-7b1d-11e8-93a6-ccab73c21b1e.png)
 
-* confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!
+* confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!<br>
+**Note** If you encounter an error relating to 'installspec()', try [the following site](https://medium.com/@kyleake/how-to-install-r-in-jupyter-with-irkernel-in-3-steps-917519326e41)
 
 ![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)
 
@@ -65,17 +75,8 @@ $ jupyter notebook
    * follow instructions for "WSL 1"
    * choose "Ubuntu 18.04 LTS" for your linux distribution
 
-### 2. install cmder
-* download 'mini' version from http://cmder.net/
-* uncompress and copy folder to `C:\Program Files\`
-* add `C:\Program Files\cmder_mini` to your `Path` environment variable ([instructions](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/))
-
-### 3. install juypter
-* launch cmder
-   * you may have to log in/out for cmder to be accessible via your start menu, or just click the cmder file in windows explorer
-* open a bash window
-   * within cmder, press control-T.  From the "startup command" menu, choose `{WSL::bash}` or `{bash::ubuntu}`
-   * click the Start button
+### 2. install juypter
+* open an ubuntu window from the Windows start menu
 * run the following commands
 ```
 sudo apt update
@@ -84,7 +85,8 @@ sudo apt install python3 python3-pip ipython3
 pip3 install jupyter
 ```
 
-### 4. install R in linux subsystem
+### 3. install R in linux subsystem
+
 * execute these commands: 
 ```
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
@@ -93,21 +95,21 @@ sudo apt update
 sudo apt install r-base
 ```
 
-### 5. install httr and git2r dependencies
+### 4. install httr and git2r dependencies
 ```
-sudo apt-get install libssl-dev libcurl4-gnutls-dev
+sudo apt-get install libssl-dev libcurl4-gnutls-dev libxml2-dev
 ```
 
-### 6. configure R kernel for jupyter
+### 5. configure R kernel for jupyter
 * launch R by typing `R` at the terminal prompt
 * execute these commands:
 ```R
-install.packages(c('repr','IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+install.packages(c('repr','IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'), INSTALL_opts = '--no-lock')
 devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
 
-### 7. start jupyter
+### 6. start jupyter
 * From a bash prompt, execute `jupyter notebook`. You should see output like this: 
 ```
 [I 09:26:38.967 NotebookApp] Serving notebooks from local directory: /usr/local/lib/python3.5/dist-packages
@@ -128,3 +130,24 @@ IRkernel::installspec()
 * confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!
 
 ![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)
+
+### (optional) install cmder
+* download 'mini' version from http://cmder.net/
+* uncompress and copy folder to `C:\Program Files\`
+* add `C:\Program Files\cmder_mini` to your `Path` environment variable ([instructions](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/))
+   * you may have to log in/out for cmder to be accessible via your start menu, or just click the cmder file in windows explorer
+* to open a bash window
+   * within cmder, press control-T.  From the "startup command" menu, choose `{WSL::bash}` or `{bash::ubuntu}`
+   * click the Start button
+  
+## Confirm installations
+* Are you able to open identify and open terminal on your computer? Y/N
+* Does a browser automatically open to a Jupyter Notebook page showing your files? Y/N </br>
+Type `jupyter notebook --version` in your terminal to confirm you have *v6.0.3* installed
+* In your Jupyter notebook, are you able to initiate a new Python3 script? Y/N</br>
+Type `python --version` in your terminal to confirm you have *v3.8.3* installed
+* In your Jupyter notebook, are you able to initiate a new R script? Y/N</br>
+Type `R --version` in your terminal to confirm you have *v4.0.2* installed
+* Did you make a Github account in the instance you don't already have one? Y/N <br>
+If not, follow the instructions [here](https://www.wikihow.com/Create-an-Account-on-GitHub) don't get caught up in the details after, we'll be covering that :)<br>
+* Do you have access to our TSRI #abcb-2020 Slack channel to ask us troubleshooting questions on any of the above? Y/N

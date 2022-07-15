@@ -4,6 +4,7 @@ Course materials from previous years are available [here](https://github.com/SuL
 
 Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) </br>
 Teaching Assistants (TAs): TBD </br>
+Credit to past instructors and TAs: Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)), Dr. Huitian Yolanda Diao ([@Huitian](https://github.com/Yolanda-HT)), Dr. Karthik Gangavarapu ([@gkarthik](https://github.com/gkarthik)), Shang-Fu Chen ([@ShaunFChen](https://github.com/ShaunFChen)), Jerry Zak ([@trebbiano](https://github.com/trebbiano))
 
 This course is available in 2 parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
 * Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks (1 credit) </br>

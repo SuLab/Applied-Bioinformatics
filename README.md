@@ -1,11 +1,11 @@
 # Applied Bioinformatics
-Welcome to the Applied Bioinformatics course offered at [The Scripps Research Institute](https://www.scripps.edu//). </br>
+Welcome to the Applied Bioinformatics course offered at [The Scripps Research Institute](https://www.scripps.edu/). </br>
 Course materials from previous years are available [here](https://github.com/SuLab/Applied-Bioinformatics/tree/master). </br> 
 
-Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) and Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)) </br>
-Teaching Assistants (TAs): Huitian Yolanda Diao ([@Huitian](https://github.com/Yolanda-HT)), Karthik Gangavarapu ([@gkarthik](https://github.com/gkarthik)), Shang-Fu Chen ([@ShaunFChen](https://github.com/ShaunFChen)) </br> 
+Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) </br>
+Teaching Assistants (TAs): TBD </br>
 
-This course is available in [2] parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
+This course is available in 2 parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
 * Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks (1 credit) </br>
 1. Learn and utilize the Bash (Unix shell) for file manipulation and navigation of the file system </br>
 2. Learn and utilize R code to perform exploratory data analysis of data in files </br>
@@ -23,8 +23,7 @@ The reasoning for this internal breakdown of the course is to give individuals a
 
 * An enthusiasm for learning, at whatever level of experience you may or may not be
 * A Windows 10 or MacOS laptop (inform instructors if you need access to one of these)
-* Software installation prior to arrival (by Sep 4th @ 5 PM PST): </br>
-Command line (for Unix shell), R, and Jupyter Notebook (using Anaconda, includes Python 3) [here](Configuration.md) 
+* Software installation prior to arrival (by Sep 2nd 2022 @ 5 PM PST) ([instructions](Configuration.md))
 * Expectations: Individuals following this course either on their own or for credit should conduct professional and considerate behavior, likewise for TAs and Instructors. Individuals can typically anticipate feedback within a 48-hour time period during typical business hours.
 
 ## Schedule at a Glance

@@ -86,6 +86,7 @@ pip3 install jupyter
 ```
 
 ### 3. install R in linux subsystem
+
 * execute these commands: 
 ```
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'

@@ -66,88 +66,56 @@ $ jupyter notebook
 ![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)
 
 
-## Windows Subsystem for Linux
+## Windows R and RStudio Installation
 
+### 1. Download and install [base R](https://cran.rstudio.com/bin/windows/base/R-4.2.1-win.exe)
+* TL;DR - accept the defaults and click "Next" on everything
+* Ensure to 'check' RTools4.2. If you forget, you can add it by installing it from [here](https://cran.rstudio.com/bin/windows/Rtools/rtools42/files/rtools42-5253-5107-signed.exe) otherwise you will run into a lot of errors.
+
+
+### 2. Download and install [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+* Ensure you have at least 772.1 MB available on the drive you are installing RStudio
+
+### 3. Download and [Install Git for Windows](https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-64-bit.exe)
+* Accept the defaults. RStudio for Windows prefers for Git to be installed at C:/Program Files (The default)
+
+### 4. Launch RStudio
+* in R console, execute the commands in console:
+```R
+install.packages(c('packages_to_install'))
+```
+
+### 5. OPTIONAL. Install Windows Subsystem for Linux
 **REMINDER:** You must have Windows 10 to be able to use the instructions below.  If you do not have access to a Windows 10 or MacOS computer, contact the course instructors.
 
-### 1. install linux
+#### 1. install linux
 * follow instructions at https://docs.microsoft.com/en-us/windows/wsl/install-win10
    * follow instructions for "WSL 1"
-   * choose "Ubuntu 18.04 LTS" for your linux distribution
+   * choose "Ubuntu 20.04 LTS" for your linux distribution. This should be the default option if not specified.
 
-### 2. install juypter
-* open an ubuntu window from the Windows start menu
-* run the following commands
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install python3 python3-pip ipython3
-pip3 install jupyter
-```
 
-### 3. install R in linux subsystem
-
-* execute these commands: 
+#### 2. install R in linux subsystem
+* execute these commands from [r-project.org](https://cloud.r-project.org/bin/linux/ubuntu/#install-r): 
 ```
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
-curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE298A3A825C0D65DFD57CBB651716619E084DAB9" | sudo apt-key add
-sudo apt update
-sudo apt install r-base
+sudo apt update -qq
+sudo apt install --no-install-recommends software-properties-common dirmngr
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+sudo apt install --no-install-recommends r-base
 ```
 
-### 4. install httr and git2r dependencies
+#### 4. install httr and git2r dependencies
+* httr is an R package that parallels Requests library in Python
+* git2r dependency is R export to git
 ```
 sudo apt-get install libssl-dev libcurl4-gnutls-dev libxml2-dev
 ```
 
-### 5. configure R kernel for jupyter
-* launch R by typing `R` at the terminal prompt
-* execute these commands:
-```R
-install.packages(c('repr','IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'), INSTALL_opts = '--no-lock')
-devtools::install_github('IRkernel/IRkernel')
-IRkernel::installspec()
-```
 
-### 6. start jupyter
-* From a bash prompt, execute `jupyter notebook`. You should see output like this: 
-```
-[I 09:26:38.967 NotebookApp] Serving notebooks from local directory: /usr/local/lib/python3.5/dist-packages
-[I 09:26:38.967 NotebookApp] 0 active kernels
-[I 09:26:38.967 NotebookApp] The Jupyter Notebook is running at:
-[I 09:26:38.968 NotebookApp] http://localhost:8888/?token=4f0ec8297e0be4f8789fdcf422196717a3d9221e76e1a933
-[I 09:26:38.968 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[W 09:26:38.972 NotebookApp] No web browser found: could not locate runnable browser.
-[C 09:26:38.972 NotebookApp]
-
-    Copy/paste this URL into your browser when you connect for the first time,
-    to login with a token:
-        http://localhost:8888/?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-* launch jupyter by copying the URL shown *in your terminal window* into a browser. You should see something like this:
-![Jupyter root view](https://user-images.githubusercontent.com/2635409/42073862-da786178-7b1d-11e8-93a6-ccab73c21b1e.png)
-
-* confirm the R kernel is successfully installed.  If you see the option for R as in the screenshot below, you are done!
-
-![Jupyer R kernel view](https://user-images.githubusercontent.com/2635409/42073870-e6022f56-7b1d-11e8-9cbd-77e607599bdb.png)
-
-### (optional) install cmder
-* download 'mini' version from http://cmder.net/
-* uncompress and copy folder to `C:\Program Files\`
-* add `C:\Program Files\cmder_mini` to your `Path` environment variable ([instructions](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/))
-   * you may have to log in/out for cmder to be accessible via your start menu, or just click the cmder file in windows explorer
-* to open a bash window
-   * within cmder, press control-T.  From the "startup command" menu, choose `{WSL::bash}` or `{bash::ubuntu}`
-   * click the Start button
-  
 ## Confirm installations
-* Are you able to open identify and open terminal on your computer? Y/N
-* Does a browser automatically open to a Jupyter Notebook page showing your files? Y/N </br>
-Type `jupyter notebook --version` in your terminal to confirm you have *v6.0.3* installed
-* In your Jupyter notebook, are you able to initiate a new Python3 script? Y/N</br>
-Type `python --version` in your terminal to confirm you have *v3.8.3* installed
-* In your Jupyter notebook, are you able to initiate a new R script? Y/N</br>
-Type `R --version` in your terminal to confirm you have *v4.0.2* installed
+* Are you able to identify and open R console on your computer? Y/N
+* Are you able to identify and open RStudio on your computer? Y/N
+* In RStudio terminal, Type `R --version` and check if you have *v4.2.1 Funny Looking Kid* installed 
 * Did you make a Github account in the instance you don't already have one? Y/N <br>
 If not, follow the instructions [here](https://www.wikihow.com/Create-an-Account-on-GitHub) don't get caught up in the details after, we'll be covering that :)<br>
-* Do you have access to our TSRI #abcb-2020 Slack channel to ask us troubleshooting questions on any of the above? Y/N
+* Do you have access to our TSRI #abcb-2022 Slack channel to ask us troubleshooting questions on any of the above? Y/N

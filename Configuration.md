@@ -1,8 +1,7 @@
 # Configuration: Complete the following one week before class ~1 hr
-#### Contact Instructors and TAs for any obstacles encountered -- do this via course Slack channel access > email
-This file contains instructions for how to install terminal (for command line), jupyter notebook (as part of anaconda, which includes python 3), and R (as well as the R kernel for jupyter notebook) on your personal computer. Instructions are provided based on MacOS or Windows 10.  If you do not have access to a MacOS or Windows 10 computer, contact the course instructors. 
+This file contains instructions for how to install R and RStudio on your personal computer. The instructions below should work for most recent versions of MacOS, Windows, and Ubuntu.  If you do not have a computer with one of those operating systems, or if you have any problems, please contact the course instructurs via the course Slack channel.
 
-## Mac OS *note to scroll to bottom after completing steps 1-5 ['Confirm installations']
+## Mac OS 
 
 ### 1. install python3 and jupyter using anaconda
 * follow installation instructions for python3.6 at https://www.anaconda.com/download#macos <br><br>
@@ -68,49 +67,19 @@ $ jupyter notebook
 
 ## Windows R and RStudio Installation
 
-### 1. Download and install [base R](https://cran.rstudio.com/bin/windows/base/R-4.2.1-win.exe)
+### 1. Download and install [R](https://cran.rstudio.com/bin/windows/base/)
+* The current version is R-4.2.1.
 * TL;DR - accept the defaults and click "Next" on everything
 * Ensure to 'check' RTools4.2. If you forget, you can add it by installing it from [here](https://cran.rstudio.com/bin/windows/Rtools/rtools42/files/rtools42-5253-5107-signed.exe) otherwise you will run into a lot of errors.
-
 
 ### 2. Download and install [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 * Ensure you have at least 772.1 MB available on the drive you are installing RStudio
 
-### 3. Download and [Install Git for Windows](https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-64-bit.exe)
+### 3. Download and [Install Git for Windows](https://gitforwindows.org/)
 * Accept the defaults. RStudio for Windows prefers for Git to be installed at C:/Program Files (The default)
 
-### 4. Launch RStudio
-* in R console, execute the commands in console:
-```R
-install.packages(c('packages_to_install'))
-```
-
-### 5. OPTIONAL. Install Windows Subsystem for Linux
-**REMINDER:** You must have Windows 10 to be able to use the instructions below.  If you do not have access to a Windows 10 or MacOS computer, contact the course instructors.
-
-#### 1. install linux
-* follow instructions at https://docs.microsoft.com/en-us/windows/wsl/install-win10
-   * follow instructions for "WSL 1"
-   * choose "Ubuntu 20.04 LTS" for your linux distribution. This should be the default option if not specified.
-
-
-#### 2. install R in linux subsystem
-* execute these commands from [r-project.org](https://cloud.r-project.org/bin/linux/ubuntu/#install-r): 
-```
-sudo apt update -qq
-sudo apt install --no-install-recommends software-properties-common dirmngr
-wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
-sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
-sudo apt install --no-install-recommends r-base
-```
-
-#### 4. install httr and git2r dependencies
-* httr is an R package that parallels Requests library in Python
-* git2r dependency is R export to git
-```
-sudo apt-get install libssl-dev libcurl4-gnutls-dev libxml2-dev
-```
-
+### 4. OPTIONAL. Install Windows Subsystem for Linux
+* follow instructions in https://docs.microsoft.com/en-us/windows/wsl/install
 
 ## Confirm installations
 * Are you able to identify and open R console on your computer? Y/N

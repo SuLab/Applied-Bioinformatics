@@ -12,7 +12,12 @@ This file contains instructions for how to install R, RStudio, and git on your p
 * Download the installer for your OS at https://www.rstudio.com/products/rstudio/download/#download
 
 ### Install git
-* Follow links and instructions at https://git-scm.com/downloads
+* Basically you will follow links and instructions at https://git-scm.com/downloads
+* **MacOs**
+    * follow the "homebrew" instructions, which boil down to executing these two commands in your Terminal application:
+       * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+       * `brew install git`
+* **Ubuntu Linux**: Execute `apt-get install git`.  If you see any errors, try `sudo apt-get install git`
 
 ### RECOMMENDED FOR WINDOWS USERS: Install Windows Subsystem for Linux (WSL)
 * Follow instructions in https://docs.microsoft.com/en-us/windows/wsl/install

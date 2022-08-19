@@ -1,97 +1,45 @@
 # Applied Bioinformatics
-Welcome to the Applied Bioinformatics course offered at [The Scripps Research Institute](https://www.scripps.edu/). </br>
-Course materials from previous years are available [here](https://github.com/SuLab/Applied-Bioinformatics/tree/master). </br> 
+Welcome to the Applied Bioinformatics course offered at [The Scripps Research Institute](https://www.scripps.edu/). 
 
 Instructors: Dr. Andrew I Su ([@andrewsu](https://github.com/andrewsu)) </br>
-Teaching Assistants (TAs): TBD </br>
-Credit to past instructors and TAs: Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)), Dr. Huitian Yolanda Diao ([@Huitian](https://github.com/Yolanda-HT)), Dr. Karthik Gangavarapu ([@gkarthik](https://github.com/gkarthik)), Shang-Fu Chen ([@ShaunFChen](https://github.com/ShaunFChen)), Jerry Zak ([@trebbiano](https://github.com/trebbiano))
+Teaching Assistants (TAs):
+* Kai-Yu Chen ([@chvbs2000](https://github.com/chvbs2000))
+* Carolina Gonzalez ([@Carolina1396](https://github.com/Carolina1396))
+* Shashank Nagaraja ([@dapluggg](https://github.com/dapluggg))
+* Roger Tu ([@turoger](https://github.com/turoger))
 
-This course is available in 2 parts and operates under the Computational Biology & Bioinformatics (CBB) core track: </br>
-* Unit A:    Fundamentals of Scientific Computing (FSC), 4 weeks (1 credit) </br>
-1. Learn and utilize the Bash (Unix shell) for file manipulation and navigation of the file system </br>
-2. Learn and utilize R code to perform exploratory data analysis of data in files </br>
-3. Learn and utilize Jupyter Notebook for R code </br>
-4. Learn and utilize Git and GitHub for code versioning (tracking changes of source code) </br>
-* Units B-C: Applied Bioinformatics and Computational Biology (ABCB), 8 weeks (2 credits) </br>
-1. Learn the fundamentals of RNA-Seq, and its application in the larger biological research schema. </br>
-2. Application of R in analyses of RNA-Seq data, from raw data to publishable statistics and figures. </br>
-3. Practice and present on learned R skillset through published data via Capstone project. </br>
-4. Understand and practice of peer review through self-evaluation and evaluation of peers. </br> 
+This course is available in 2 parts and operates under the Computational Biology & Bioinformatics (CBB) core track: 
 
-The reasoning for this internal breakdown of the course is to give individuals an opportunity to "learn from scratch" and then go more in-depth, or choose either or path (solely partake in Unit A or Units B-C) depending on the individuals' needs. </br>
+* Fundamentals of Scientific Computing, 4 weeks (1 credit) </br>
+  1. Learn how to use RStudio and R
+  2. Learn basics of data visualization and exploratory data analysis
+  3. Learn to use R Notebooks
+
+* Applied Bioinformatics and Computational Biology (ABCB), 8 weeks (2 credits) 
+  1. Learn the fundamentals of exploratory analysis of RNA-seq data, including PCA and clustering
+  2. Learn the fundamentals of differential expression analysis, enrichment analysis, and visualization
+  3. Practice and present on learned R skillset through published data via Capstone project. 
 
 ## Prerequisites
+* A recent computer running Windows 10/11, MacOS, or Linux (inform instructors if you have any concerns)
+* Software installation prior to first class ([instructions](Configuration.md))
 
-* An enthusiasm for learning, at whatever level of experience you may or may not be
-* A Windows 10 or MacOS laptop (inform instructors if you need access to one of these)
-* Software installation prior to arrival (by Sep 2nd 2022 @ 5 PM PST) ([instructions](Configuration.md))
-* Expectations: Individuals following this course either on their own or for credit should conduct professional and considerate behavior, likewise for TAs and Instructors. Individuals can typically anticipate feedback within a 48-hour time period during typical business hours.
-
-## Schedule at a Glance
-
-Each week consists of two 90-minute classes starting at 8:15 AM PST and ending at 9:45 AM PST from Sep 8th through Dec 10th, paired with one homework assignment (per week, weeks 1-9, 8 assignments in total). Within each class are two 45-minute sessions comprising of ~15-min lectures and ~30-min hands-on exercises with a brief recap at the end of the 90-minute period. </br> 
-* Unit A (4 wks): </br> 
-Fundamentals of Scientific Computing (FSC), or STBIO 400
-  * Week 1: Course Introduction + Jupyter Notebook + Bash Basics  
-  * Week 2: Bash in-depth 
-  * Week 3: Intro to R 
-  * Week 4: Data Analysis and Plotting in R <br>
-* Unit B (5 wks): </br>
-Understanding and Exploration RNA-Seq, or STBIO 440i
-  * Week 5: Advanced R and Pertinence to RNA-Seq, Introduction to Capstone Project 
-  * Week 6: RNA-Seq Raw Data Ouput + RNA-Seq Data Pre-processing
-  * Week 7: RNA-Seq Data Pre-processing cnt'd 
-  * Week 8: RNA-Seq Data Post-processing + DESeq2
-  * Week 9: Special Topics: R Packages of interest, Git (version Control), and the HPC
-* Unit C (3 wks): </br>
-Capstone Projects and Overview of the Bioinformatics Data Workflow Spectrum, or STBIO 440ii
-  * Week 10: Capstone Project Workshop
-  * Week 11: An Overview of Additional Bioinformatics Workflows (Metagenomics, Proteomics, and others) 
-  * Week 12: Capstone Project Presentations
 
 ## Course Materials
 
-### Unit A: Jupyter, Bash, and R
-* A.1a (Sep 8): Intro and Bash Basics [slides](https://drive.google.com/file/d/14YRjk3HeurTEu0xCzrLqdN4VYm9oex6u/view?usp=sharing), HW1 (jupyterhub)
-* A.1b (Sep 10): Bash cnt'd [slides](https://docs.google.com/presentation/d/12mHX_9_4X_49OO0mjyKCPKdoISATsVtKjPIn82Afcbg/edit?usp=sharing) 
-* A.2a (Sep 15): Bash in-depth [slides](https://docs.google.com/presentation/d/1LsJTwx4qhoYWvyZzQDp_31RvuF68yy7Mv3QrBYINo-c/edit?usp=sharing), [HW1 Review](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW1-Key_Bash-Basics.ipynb) and HW2
-  * HW1 Due @ 8 AM PST
-* A.2b (Sep 17): Loops [slides](https://docs.google.com/presentation/d/16a_K8RNdvgDlTHZcZd-k826Y2EyAseFyYh3kP8SvdVo/edit?usp=sharing) 
-* A.3a (Sep 22): Introduction to R [slides](https://docs.google.com/presentation/d/1nbw7FwPeiJrwZkstIvBDhuJGVFlwzJfl_NgKWWvMq5g/edit?usp=sharing), [HW2 Review](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW2-Key_Scripting%2BJobs_Bash.ipynb) and HW3
-  * HW2 Due @ 8 AM PST
-* A.3b (Sep 24): R Objects and Operations [slides](https://docs.google.com/presentation/d/1Lg7rBrtMu2vYGLRNsaIexD1zmF8NfnSZhnNXVZCJ6pQ/edit?usp=sharing) 
-* A.4a (Sep 29): Data Analysis and Function in R [slides](https://docs.google.com/presentation/d/1KP9Lt0zy_9OE8puUY4AhYMl1F4pgtKeDbU19aK43Xgo/edit?usp=sharing), [HW3 Review](https://github.com/SuLab/Applied-Bioinformatics/blob/Fall-2020/Homework/HW3-Key_Introduction-to-R.ipynb) and HW4 
-  * HW3 Due @ 8 AM PST
-* A.4b (Oct 1): Plotting in R, [slides](https://docs.google.com/presentation/d/1cRHx9g4CqMOBzItsAWl1E7b2et75LauO0S5LG5_i428/edit?usp=sharing) 
+This section will be updated as the course progresses.
 
-### Unit B: Exploration of RNA-Seq via Utilizing R
-* B.5a (Oct 6): Advanced plotting in R [slides](https://docs.google.com/presentation/d/11CPVDuRYg2OCzWumdRDXszmNItGfxO2SP-7lrkorNzI/edit?usp=sharing), HW4 Review and HW5  
-  * HW 4 Due @ 8 AM PST
-* B.5b (Oct 8): R and DESeq2 in relation to RNA-Seq [slides](https://docs.google.com/presentation/d/1tquX_TV2ca_y0FFITbdmCRmoOl1LhZuem_kpUFEwUhc/edit?usp=sharing), Introduction to Capstone 
-* B.6a (Oct 13): Introduction to RNA-Seq and FASTQC [slides](https://docs.google.com/presentation/d/1ls_tBOG-gfZEL03h8Q6rSQFOQnVOIVoooHTl4WSdXHQ/edit?usp=sharing), HW5 Review and HW6 
-  * HW 5 Due @ 8 AM PST
-* B.6b (Oct 15): Raw RNA-Seq Data Ouput and Alignment (HISAT2 and SAM) [slides](https://docs.google.com/presentation/d/1obICQYdoMPcDVwI9w8o3JtKVuiPPLsQgb9h4VBPXaxE/edit?usp=sharing)
-* B.7a (Oct 20): CLASS CANCELLED, HW7 RNA-Seq Data Pre-Processing, HW6 Review  
-  * HW 6 Due @ 8 AM PST
-* B.7b (Oct 22): RNA-Seq Mapping and Read Counting [slides](https://docs.google.com/presentation/d/11nEc9K3688XQCUesABqdMa6QnuBTaV3kW9sQeAbhLHo/edit?usp=sharing) 
-* B.8a (Oct 27): RNA-Seq Expression Analysis [slides](https://docs.google.com/presentation/d/1Ms0WlCEFFw4596BTnnPEM73_IUVtGHhbt3YL54qoqgI/edit?usp=sharing), HW7 Review and HW8 
-* B.8b (Oct 29): RNA-Seq DESeq2 and Enrichment Analysis [slides](https://docs.google.com/presentation/d/1YaSI5CHgsFjCgz8G1Z9qDIKFMRxqZVPoj4kwzhUA1_4/edit?usp=sharing)
-  * HW 7 Due @ 8 AM PST
-* B.9a (Nov 3): R Analyses of Interest (PCA and PCoA) [slides](https://drive.google.com/file/d/1qAgFEE_B5qO7CZ2L2qTV_cH2d5mxmsoA/view?usp=sharing)
-* B.9b (Nov 5): Git and utilizing the TSRI HPC [slides](https://drive.google.com/file/d/1FGEUx3ib6jLUT4T1bMIi2IWrngWfUnQx/view?usp=sharing) and [associated repository](https://github.com/ShaunFChen/2020_FA_HPC)
+* Tuesday 2022-09-06: Course intro 
+   * [slides](https://docs.google.com/presentation/d/1Ye8nBg-IsF0laGGY8Lf78Nd8CMAGkYft/edit?usp=sharing)
+   * Homework due Monday 2022-09-12 3PM PT
+* Thursday 2022-09-08: Data visualization
+   * slides (to be posted)
+   * Homework due Monday 2022-09-19 3PM PT
+* Tuesday 2022-09-13:
+   * slides (to be posted)
+   * Homework due Monday 2022-09-19 3PM PT
+* Thursday 2022-09-15:
+   * slides (to be posted)
+   * Homework due Monday 2022-09-26 3PM PT
 
-### Unit C: Capstone Project, and Overview of Pipelines
-* C.10 a(Nov 10 [slides](https://docs.google.com/presentation/d/1VLdmVfhENcQFrGQHLIZZwXpHsqp4ykd6_cURoMQ98tc/edit?usp=sharing)) - b(Nov 12 [slides](https://docs.google.com/presentation/d/1h7mQQ0B94JJheAc3k4qyzmffMdnVLBK0QOqWqHU3-rA/edit?usp=sharing)): Workshop Time
-  * HW 8 Due Nov 10th @ 8 AM PST
-* C.11a (Nov 17): Invited talks on applied bioinformatics research and career journeys [slides](https://docs.google.com/presentation/d/1UEjXoJopYRQ7-Vmh8iQwCzSyN4lnq8ECjh_DE5UnMzA/edit?usp=sharing)
-  * Dr. Joel Babdor ([@joelBabdor](https://github.com/joelBabdor)) - Translational, Immunology, Immunotherapy; Dr. Chiranjit Mukherjee ([@cm0109](https://github.com/cm0109)) - Amplicon Sequencing, Human Microbiome, Microbial Ecology; Dr. Sally Chang ([@esallychang](https://github.com/esallychang)) - Non-Model Organisms, Comparative Genomics, Genomics of Disease; Dr. Mario Banuelos ([@MBanuelos](https://github.com/MBanuelos)) - Genomic Variation, Deep Learning, Optimization
-* C.11b (Nov 19): Panel [slides](https://docs.google.com/presentation/d/1kGpfo9T1ZhGbnq2Tvm4F7J-7gyQdCfEd0eCSjyrH3Pw/edit?usp=sharing)
-  * [Dr. Daniel Murin](http://www.alumni.scripps.edu/s/1714/16/interior.aspx?sid=1714&gid=2&pgid=252&cid=1621&ecid=1621&crid=0&calpgid=61&calcid=1230) (CA) - Postdoctoral Associate / Graduate Alumn, [Dr. Pabalu Karunadharma](https://www.scripps.edu/science-and-medicine/cores-and-services/genomics/index.html) (FL) - Genomics Core Director, [Dr. Gogce Crynen](https://www.scripps.edu/science-and-medicine/cores-and-services/center-for-computational-biology/index.html?tab-4-contact=1) (FL) - Bioinformatics Analyst , [Dr. Padmaja Natarajan](https://www.scripps.edu/science-and-medicine/cores-and-services/center-for-computational-biology/index.html?tab-4-contact=1) (CA) - Bioinformatics Analyst, and [Dr. Jean-Christophe Ducom](https://www.scripps.edu/newsandviews/e_20110801/ducom.html) (CA) - HPC Director / IT 
-* C.12 a(Dec 1) - b (Dec 3): Presentations
-  * cnt'd Dec 8 and Dec 10 (if necessary)
-
-## How to Get Help? 
-1. Is there a possibility the answer to my question is available online?
-If the answer is available, post the original question and answer you found [as an Issue](https://github.com/SuLab/Applied-Bioinformatics/labels) with the 'question' label. Be sure to close the issue with the answer you found (including relevant resource links) after opening it. You will need [a Github account](https://www.youtube.com/watch?v=f_XsJIHSLRg) to do this.
-2. If the answer is not available online, post it as a question-labeled Issue and pend for a response from the Instructors or TAs. Who knows, perhaps another student had also encountered the same issue and can answer it too!
-3. If the obstacle is something more personal, such as a specific installation issue unique to your computer alone, reach out to the instructors. Any question is better than no question at all, and often we all learn from them (not just students)!
+Credit to past instructors and TAs: Dr. Sabah Ul-Hasan ([@sabahzero](https://github.com/sabahzero)), Dr. Huitian Yolanda Diao ([@Huitian](https://github.com/Yolanda-HT)), Dr. Karthik Gangavarapu ([@gkarthik](https://github.com/gkarthik)), Shang-Fu Chen ([@ShaunFChen](https://github.com/ShaunFChen)), Jerry Zak ([@trebbiano](https://github.com/trebbiano))

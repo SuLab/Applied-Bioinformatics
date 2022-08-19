@@ -14,5 +14,5 @@ This file contains instructions for how to install R, RStudio, and git on your p
 ### Install git
 * Follow links and instructions at https://git-scm.com/downloads
 
-### OPTIONAL FOR WINDOWS USERS: Install Windows Subsystem for Linux (WSL)
+### RECOMMENDED FOR WINDOWS USERS: Install Windows Subsystem for Linux (WSL)
 * Follow instructions in https://docs.microsoft.com/en-us/windows/wsl/install

@@ -3,21 +3,23 @@ This file contains instructions for how to install R, RStudio, and git on your p
 
 ### Install R
 * Follow installation links and instructions at https://cran.rstudio.com/. The current version is R-4.2.1. 
-* In general, select the defaults
+* In general, select the installation defaults
 * **Windows**
-   * select the option for "Install R for the first time"
-   * Ensure to 'check' RTools4.2. If you forget, you can add it by installing it from [here](https://cran.rstudio.com/bin/windows/Rtools/rtools42/files/rtools42-5253-5107-signed.exe) otherwise you will run into a lot of errors.
+   * Select the option for "Install R for the first time"
+   * If given the option, install RTools4.2. If you forget or do not see the option, install it from [here](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html) (select the "Rtools42 installer").
+* **MacOS**
+   * Download the file `R-4.2.1.pkg`, then double-click that file.
 
 ### Install RStudio
 * Download the installer for your OS at https://www.rstudio.com/products/rstudio/download/#download
 
-### Install git
-* Basically you will follow links and instructions at https://git-scm.com/downloads
-* **MacOs**
-    * follow the "homebrew" instructions, which boil down to executing these two commands in your Terminal application:
-       * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-       * `brew install git`
-* **Ubuntu Linux**: Execute `apt-get install git`.  If you see any errors, try `sudo apt-get install git`
+### Confirm your installation was successful
+* Start RStudio
+* Type `plot(1:10)` at the prompt in the "Console" window
+* Confirm you see the simple scatter plot in the lower right panel, as shown in the screenshot below
+
+![image](https://user-images.githubusercontent.com/2635409/185712070-3cb947e7-ddb0-4d5d-92ea-280ef9a934d1.png)
+
 
 ### RECOMMENDED FOR WINDOWS USERS: Install Windows Subsystem for Linux (WSL)
 * Follow instructions in https://docs.microsoft.com/en-us/windows/wsl/install

@@ -20,6 +20,7 @@ Installation instructions are derived from [Computing for Social Sciences at The
 
 ## Configuring SSH
 * In R console install the following packages:
+
 ```R
 install.packages(c("usethis", "gitcreds", "gh"))
 ```
@@ -34,8 +35,9 @@ usethis::use_git_config(user.name = "Your Name", user.email = "youremail@scripps
 
 * create a SSH key by running the following command in R console:
 	* allows you to push updates to github without typing in your password
-	* Clck 'yes' when prompted to generate a new SSH key
-	```R
+	* Click 'yes' when prompted to generate a new SSH key
+	
+```R
 credentials::ssh_setup_github()
 ```
 
@@ -49,6 +51,7 @@ credentials::ssh_setup_github()
 
 ### Creating a repo online using GitHub and push to it
 * Navigate to where you want to pull your remote repository to in Terminal.  I'm using fluffy-octo-journey as my repo in this example.
+
 ```bash
 git remote add origin git@github.com:turoger/fluffy-octo-journey.git
 git branch -M main

@@ -16,7 +16,19 @@ You will be following the links and instructions at https://git-scm.com/download
 * Choose all other defaults.
 
 # Configuring git in RStudio
-Installation instructions are derived from [Computing for Social Sciences at The University of Chicago](https://cfss.uchicago.edu/setup/what-is-git/ "Computing for Social Sciences at The University of Chicago").
+* Installation instructions are derived from [Computing for Social Sciences at The University of Chicago](https://cfss.uchicago.edu/setup/what-is-git/ "Computing for Social Sciences at The University of Chicago") and [happy git with R](https://happygitwithr.com/https-pat.html).
+* There are two methods of communicating with your remote repository on github using RStudio. One uses Personalized Access tokens (PAT) and the other uses Secure Shell (SSH). The choice is up to you.
+* Most recommend configuring PAT as it is easier to get working quickly. Simply generate a token and provide the token next time a Git operation asks for your password. To follow a PAT protocol you need to clone a repository using the `HTTPS` link which usually follows the pattern `https://github.com/<OWNER>/<REPO>.git`. You can get this link from the `Code` button in your GitHub repository.
+* SSH comes in handy when you're working with servers and is generally more secure. Unlike using HTTPS, you do not need to generate a new PAT monthly. To follow a SSH protocol you clone a repository using the `SSH` link whcih follows the pattern `git@github.com:<OWNER>/<REPO>.git`.
+
+## Configuring PAT
+* Go to [https://github.com/settings/tokens](https://github.com/settings/tokens) and select "Generate new token".
+* Select "repo", "workflow", and "user".
+* In RStudio Console, copy your PAT from GitHub and paste your PAT into the console after calling:
+
+```R
+gitcreds::gitcreds_set()
+```
 
 ## Configuring SSH
 * In R console install the following packages:

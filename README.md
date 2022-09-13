@@ -33,10 +33,10 @@ This section will be updated as the course progresses.
    * [slides](https://docs.google.com/presentation/d/1Ye8nBg-IsF0laGGY8Lf78Nd8CMAGkYft/edit?usp=sharing)
    * Homework due Monday 2022-09-12 3PM PT
 * Thursday 2022-09-08: Data visualization
-   * [slides] (https://docs.google.com/presentation/d/16JYUXOdfllGqmlcu31UCj_EvJO38pytOx26DsmToSMo/edit?usp=sharing)
+   * [slides](https://docs.google.com/presentation/d/16JYUXOdfllGqmlcu31UCj_EvJO38pytOx26DsmToSMo/edit?usp=sharing)
    * Homework due Monday 2022-09-19 3PM PT
 * Tuesday 2022-09-13:
-   * [slides] (https://docs.google.com/presentation/d/1_AXs9embC_X9mpBgL7Bt-ddY5_UgbMt2eKLVm4_BEkY/edit?usp=sharing)
+   * [slides](https://docs.google.com/presentation/d/1_AXs9embC_X9mpBgL7Bt-ddY5_UgbMt2eKLVm4_BEkY/edit?usp=sharing)
    * Homework due Monday 2022-09-19 3PM PT
 * Thursday 2022-09-15:
    * slides (to be posted)

@@ -27,15 +27,11 @@ You will be following the links and instructions at https://git-scm.com/download
 * In RStudio Console, copy your PAT from GitHub and paste your PAT into the console after calling:
 
 ```R
+install.packages(c("usethis", "gitcreds", "gh"))
 gitcreds::gitcreds_set()
 ```
 
 ## Configuring SSH
-* In R console install the following packages:
-
-```R
-install.packages(c("usethis", "gitcreds", "gh"))
-```
 
 * Tell R who you are:
 	* `user.name` can be your real name ('First', 'Last') or your github username
